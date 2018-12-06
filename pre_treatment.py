@@ -20,9 +20,24 @@ def text_pre_treat():
     output_text.write(output_string.join(output_text_list))
 
 
-def find_name():
-    # function to find all possible names
-    print()
+def name_pre_treat():
+    input_text = open(".\half_done\\PotterNameEnglish.txt", "r+", encoding="utf-8")
+    output_text = open(".\half_done\\PotterNameEnglishOutput.txt", "w", encoding="utf-8")
+    output_text_list = []
+    line = input_text.readline()
+    while line:
+        line = input_text.readline()
+        if len(line) > 2:
+            end = line.find("–")
+            end1 = line.find("-")
+            if end == -1:
+                end = end1
+            output_text_list.append(line[0:end])
+    # need a little bit more deletion
+    name_string = "".join(output_text_list)
+    name_set = sorted(set(name_string.split(" ")))
+    output_text.write(" ".join(name_set))
 
 
-text_pre_treat()
+# text_pre_treat() # treat book*.txt
+name_pre_treat()  # treat PotterNameEnglish.txt
