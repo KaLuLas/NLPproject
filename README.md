@@ -1,6 +1,6 @@
 # NLP_final_project
 
-
+### Brief Introduction
 
 half_done 存放预处理文本素材
 
@@ -14,7 +14,7 @@ human_name_extraction.py 人名提取，按分册进行，标记初次登场位�
 
 
 
-2018/12/6 
+**2018/12/6 **
 
 更新nltk语料库，自己添加语料不然无法复现（chap2载入自己语料库）**finished**
 
@@ -22,7 +22,7 @@ human_name_extraction.py 人名提取，按分册进行，标记初次登场位�
 
 
 
-2018/12/6
+**2018/12/6**
 
 需要记录出现的 名 / 姓 / 姓名 / Mr Mrs Miss？敬称 记录出场行数，记录出场次数 **finished**
 
@@ -32,7 +32,7 @@ human_name_extraction.py 人名提取，按分册进行，标记初次登场位�
 
 
 
-2018/12/6 
+**2018/12/6 **
 
 家族树建立 **finished**
 
