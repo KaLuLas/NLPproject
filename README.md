@@ -24,7 +24,7 @@ human_name_extraction.py 人名提取，按分册进行，标记初次登场位�
 
 **2018/12/6**
 
-需要记录出现的 名 / 姓 / 姓名 / Mr Mrs Miss？敬称 记录出场行数，记录出场次数 **finished**
+需要记录出现的 名 / 姓 / 姓名 / Mr Mrs Miss敬称 记录出场行数，记录出场次数 **finished**
 
 现在human_name_extraction.py extract_name() 得到人物的初次登场，出场次数，以及名字
 
@@ -46,11 +46,21 @@ Mr/Mrs Ron Weasley处理（没在家族树里面）**finished**
 
 
 
+**2018/12/7**
+
+Mr. Harry Potter / Miss Hermione Granger问题（在姓名提取中解决 **finished**
+
+现在使用一个三元组来进行名字检测，具体判断逻辑见下方
+
+现在名字识别已经几乎没有问题
+
+![name_detect_logic](D:\QQPCmgr\Desktop\Courses\大三\能量炮\NLPproject\name_detect_logic.jpg)
+
+
+
 **TODO**
 
-Miss 处理（加入到名字字典中）
-
-文本预处理的功能（可以利用chap3的分句）归一一下放到pre里面去
+文本预处理: 分句chap3/ 去除大标题，空行，替换符号，Page，归一一下放到pre里面去
 
 姓名字典的图形化，出场顺序的一个数轴，提及占比的一个饼状图
 
