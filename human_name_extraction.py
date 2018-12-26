@@ -26,15 +26,17 @@ def extract_name(file_name, need_print=False):
         index = line[0]
         # NOTICE: Two names near comma will not be mixed together cause their are two ' '
         # TODO: Pretreatment.py should do work below + delete empty and title
-        if line[1].startswith('Page'):
-            continue
+        # if line[1].startswith('Page'):
+        #    continue
         line = line[1]
         line = re.sub(r'(Mrs. )', 'Mrs.', line)
         line = re.sub(r'(Mr. )', 'Mr.', line)
+        # we'll be grateful if there are two spaces between each sentences
+        # after precise pre-treatment(divided by sentence), this strategy is no longer needed
         line = re.sub(r'(,|\.|’)', ' ', line)
         line = line.split(' ')
+
         trilist = nltk.trigrams(line)
-        # to avoid repetition like Mrs. Dursley and Dursley ***
         save2 = ''
         save3 = ''
         Mlist = ["Mr", "Mrs", "Miss"]
@@ -73,25 +75,6 @@ def extract_name(file_name, need_print=False):
                         save2 = ''
                         save3 = ''
 
-
-            '''
-            if first in list_of_names and first != save:
-                if last in list_of_names:
-                    # recover from the re sub function
-                    if first == "Mr" or first == "Mrs":
-                        first = first + "."
-                    if first + ' ' + last not in name_dict.keys():
-                        name_dict[first + ' ' + last] = [round(index / len(cap_val_list) * 100, 2), 1]
-                    else:
-                        name_dict[first + ' ' + last][1] += 1
-                    save = last
-                elif first != "Mr" and first != "Mrs" and first != "Miss":
-                    if first not in name_dict.keys():
-                        name_dict[first] = [round(index / len(cap_val_list) * 100, 2), 1]
-                    else:
-                        name_dict[first][1] += 1
-                '''
-        # print("")
     if len(name_dict) >= 1:
         filename = (file_name.split('\\')[-1]).split('.pgr')[0]
         name_dict = dict(sorted(name_dict.items(), key=lambda x: x[0]))
@@ -149,16 +132,20 @@ def build_family_tree(name_dict, family_name_dict):
 
 files = os.listdir(path)
 for file in files:
-    if file.startswith('book1'):
+    file_name = 'book1_sent.txt'
+    if file.startswith(file_name):
         print(file)
         # name_dict = extract_name(path + file, True)
         name_dict = extract_name(path + file)
         family_name_dict = family_name_extract(name_dict)
         family_name_dict = build_family_tree(name_dict, family_name_dict)
         family_name_dict = dict(sorted(family_name_dict.items(), key=lambda x: x[0]))
+        file_pre = file[:file.find('.')]
+        output_text = open(path + file_pre + "_name_extract.txt", "w", encoding="utf-8")
         for family_name, info in family_name_dict.items():
             mat = "{:12}\t{:}"
-            print(mat.format(family_name, "".join(str(info))))
+            output_text.write(mat.format(family_name, "".join(str(info))) + '\n')
+            # print(mat.format(family_name, "".join(str(info))))
     else:
         pass
 print("finished")
