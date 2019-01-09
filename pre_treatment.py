@@ -11,10 +11,12 @@ def text_pre_treat():
     output_string = ""
     test_string = input_text.readline()
     while test_string:
+        # (Page ***) | (Empty Line) | (Start Line) | (Title Line)
         if re.search("(^Page)|(^\s)|(^\ufeff)|(^[A-Z ]+$)", test_string) is None:
-            # (Page ***) | (Empty Line) | (Start Line) | (Title Line)
-            newline = re.sub("\n", "", test_string)
             # delete \n in each line
+            newline = re.sub("\n", "", test_string)
+            # for strange patterns like " . . . " or ". ..."
+            newline = re.sub("( \. \. \. )|(\. \.\.\. )", " ... ", newline)
             output_text_list.append(newline)
         test_string = input_text.readline()
 
@@ -22,7 +24,7 @@ def text_pre_treat():
     # output_text.write(output_string.join(output_text_list))
     sents = nltk.sent_tokenize(output_string.join(output_text_list))
     for sent in sents:
-        output_text.write(sent + '\n')
+        output_text.write(sent + ' \n')
 
 
 
