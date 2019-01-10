@@ -1,6 +1,16 @@
 # NLP_final_project
 
 ### Brief Introduction
+2018下学期自然语言处理期末大作业：
+基于哈利波特英文原文进行词云，联系图生成，并进行关系特征学习
+
+![WordCloud](https://github.com/KaLuLas/NLPproject/blob/master/word_cloud.png?raw=true)
+
+![RelationGraph](https://github.com/KaLuLas/NLPproject/blob/master/relation_graph.png?raw=true)
+
+
+
+### Contents
 
 **./half_done：**
 
