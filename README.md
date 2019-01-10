@@ -18,7 +18,7 @@ filename.txt 未处理文本材料
 
 filename_sent.txt 几何并处理，分句后的文本材料
 
-&nbsp
+</br>
 
 **./csv:**
 
@@ -28,7 +28,7 @@ node.csv 人物与出场权重
 
 edge.csv 人物关系与权重
 
-&nbsp
+</br>
 
 **./pre_treatment.py:** 
 
@@ -42,7 +42,7 @@ name_pre_treat():
 
 人名素材处理 （HarryNameEnglish.txt -> HarryNameEnglishOuptu.txt）
 
-&nbsp
+</br>
 
 **./human_name_extraction.py:** 
 
@@ -80,7 +80,7 @@ word_cloud.png 在七本书内容基础上生成的词云
 
 relation_graph.png 在七本书基础上生成的人物联系图（不包含确切关系
 
-&nbsp
+</br>
 
 ### TODO
 
@@ -135,7 +135,7 @@ cmd交互完成
 
 人物联系图生成需要软件Gephi
 
-&nbsp
+</br>
 
 **2019/01/09**
 
@@ -147,7 +147,7 @@ cmd交互完成
 
 交互cmd制作中
 
-&nbsp
+</br>
 
 **2018/12/28**
 
@@ -157,7 +157,7 @@ human_name_extraction.py现在输入输出格式为book1_sent.txt -> book1_sent_
 
 似乎分句后有得有失，具体表现还要自己检查
 
-&nbsp
+</br>
 
 **2018/12/7**
 
@@ -169,7 +169,7 @@ Mr. Harry Potter / Miss Hermione Granger问题（在姓名提取中解决 **fini
 
 ![name_detect_logic](https://github.com/KaLuLas/NLPproject/blob/master/name_detect_logic.jpg?raw=true)
 
-&nbsp
+</br>
 
 **2018/12/6 [3] **
 
@@ -183,7 +183,7 @@ build_family_tree()根据name_dict与family_name_dict得到一个以 name:（men
 
 Mr/Mrs Ron Weasley处理（没在家族树里面）**finished**
 
-&nbsp
+</br>
 
 **2018/12/6 [2]**
 
@@ -193,7 +193,7 @@ Mr/Mrs Ron Weasley处理（没在家族树里面）**finished**
 
 （存在姓/名/姓名/敬称重复）
 
-&nbsp
+</br>
 
 **2018/12/6 [1] **
 
