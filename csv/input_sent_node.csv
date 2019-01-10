@@ -1,0 +1,755 @@
+id,label,weight
+Mrs Dursley,Mrs Dursley,20
+Mr Dursley,Mr Dursley,31
+Dursley,Dursley,12
+Dudley,Dudley,380
+Mrs Potter,Mrs Potter,2
+Tuesday,Tuesday,16
+Harry,Harry,15327
+Potter,Potter,490
+Jim,Jim,2
+Ted,Ted,12
+Kent,Kent,2
+Petunia,Petunia,253
+Howard,Howard,1
+Albus Dumbledore,Albus Dumbledore,71
+Dumbledore,Dumbledore,2640
+McGonagall,McGonagall,610
+Dedalus Diggle,Dedalus Diggle,9
+You-Know-Who,You-Know-Who,129
+Voldemort,Voldemort,956
+Madam Pomfrey,Madam Pomfrey,148
+Godric,Godric,54
+Lily,Lily,89
+James Potter,James Potter,18
+James,James,142
+Albus,Albus,86
+Harry Potter,Harry Potter,734
+Hagrid,Hagrid,1672
+Sirius Black,Sirius Black,53
+Dudley Dursley,Dudley Dursley,4
+Don,Don,74
+Vernon,Vernon,419
+Marge,Marge,53
+Mommy,Mommy,1
+Figg,Figg,1
+Mrs Figg,Mrs Figg,49
+Lord,Lord,231
+Dennis,Dennis,4
+Malcolm,Malcolm,3
+Gordon,Gordon,1
+Happy,Happy,3
+Rubeus Hagrid,Rubeus Hagrid,5
+Vernon Dursley,Vernon Dursley,16
+Merlin,Merlin,22
+Mr Potter,Mr Potter,50
+Minerva McGonagall,Minerva McGonagall,6
+Hope,Hope,6
+Hagrid Hagrid,Hagrid Hagrid,1
+See,See,28
+Bones,Bones,3
+Cornelius Fudge,Cornelius Fudge,45
+Miranda,Miranda,4
+Bathilda Bagshot,Bathilda Bagshot,12
+Phyllida,Phyllida,1
+Newt Scamander,Newt Scamander,1
+Quentin,Quentin,1
+Tom,Tom,56
+Diggle,Diggle,4
+Doris,Doris,3
+Quirrell,Quirrell,110
+Black Forest,Black Forest,2
+Alley,Alley,46
+Barn,Barn,1
+Brown,Brown,2
+Madam Malkin,Madam Malkin,24
+Slytherin,Slytherin,288
+Mr Ollivander,Mr Ollivander,44
+Ollivander,Ollivander,54
+King,King,49
+Hedwig,Hedwig,181
+August,August,13
+Ginny,Ginny,606
+Percy,Percy,313
+Fred,Fred,747
+George,George,608
+Ron,Ron,5335
+Neville,Neville,623
+Lee,Lee,39
+Ronnie,Ronnie,4
+Saw,Saw,3
+Georg,Georg,1
+Lee Jordan,Lee Jordan,48
+George Weasley,George Weasley,35
+Bill,Bill,251
+Charlie,Charlie,83
+Bertie,Bertie,8
+Grindelwald,Grindelwald,43
+Nicolas,Nicolas,13
+Morgana,Morgana,2
+Sunshine,Sunshine,2
+Hermione Granger,Hermione Granger,36
+Ron Weasley,Ron Weasley,11
+Gryffindor,Gryffindor,529
+Ravenclaw,Ravenclaw,114
+Crabbe,Crabbe,215
+Goyle,Goyle,205
+Malfoy,Malfoy,953
+Draco Malfoy,Draco Malfoy,96
+Hermione,Hermione,4453
+Hall,Hall,219
+Will,Will,23
+Hannah,Hannah,9
+Susan,Susan,3
+Terry,Terry,3
+Seamus,Seamus,128
+Neville Longbottom,Neville Longbottom,28
+Weasley,Weasley,150
+Dean,Dean,136
+Black,Black,296
+Lisa,Lisa,1
+Percy Weasley,Percy Weasley,22
+Blaise,Blaise,4
+Nicholas,Nicholas,5
+Seamus Finnigan,Seamus Finnigan,33
+Nick,Nick,90
+Baron,Baron,19
+Enid,Enid,3
+Snape,Snape,1529
+Mr Filch,Mr Filch,18
+Madam Hooch,Madam Hooch,51
+Argus Filch,Argus Filch,10
+Filch,Filch,230
+Mrs Norris,Mrs Norris,54
+Sprout,Sprout,73
+Binns,Binns,44
+Flitwick,Flitwick,122
+Hagrid Harry,Hagrid Harry,1
+Dean Thomas,Dean Thomas,41
+West Ham,West Ham,4
+Parvati Patil,Parvati Patil,17
+Pansy Parkinson,Pansy Parkinson,38
+Parvati,Parvati,97
+Longbottom,Longbottom,33
+Hooch,Hooch,1
+Miss Patil,Miss Patil,1
+Mr Weasley,Mr Weasley,581
+Wood,Wood,143
+Oliver Wood,Oliver Wood,20
+Charlie Weasley,Charlie Weasley,6
+Severus Snape,Severus Snape,20
+Gregory,Gregory,2
+Lady,Lady,60
+Pomfrey,Pomfrey,6
+McGonagall Harry,McGonagall Harry,2
+Miss Granger,Miss Granger,42
+Lavender,Lavender,92
+Granger,Granger,30
+Angelina Johnson,Angelina Johnson,12
+Fred Weasley,Fred Weasley,18
+Oliver,Oliver,12
+Marcus Flint,Marcus Flint,9
+Flint,Flint,24
+Alicia Spinnet,Alicia Spinnet,15
+Johnson,Johnson,15
+Katie Bell,Katie Bell,31
+Adrian,Adrian,4
+Angelina,Angelina,89
+Way,Way,2
+Bell,Bell,7
+Terence,Terence,1
+Red,Red,9
+Spinnet,Spinnet,5
+Mrs Weasley,Mrs Weasley,639
+Madam Pince,Madam Pince,19
+Eve,Eve,6
+Merry,Merry,5
+Ronald Weasley,Ronald Weasley,10
+Mr Nicolas,Mr Nicolas,1
+Devon,Devon,1
+Severus,Severus,64
+Easter,Easter,20
+Moaning,Moaning,2
+Welsh,Welsh,3
+Norbert,Norbert,26
+Love,Love,12
+Mr Longbottom,Mr Longbottom,1
+Draco,Draco,103
+Lucky,Lucky,1
+Haven,Haven,9
+Trevor,Trevor,13
+Mr Baron,Mr Baron,1
+Lord Voldemort,Lord Voldemort,137
+Mr Malfoy,Mr Malfoy,59
+Ginny Weasley,Ginny Weasley,15
+Forest,Forest,32
+Mr Mason,Mr Mason,4
+Mrs Mason,Mrs Mason,4
+Say,Say,6
+Mafalda Hopkirk,Mafalda Hopkirk,5
+Lucius Malfoy,Lucius Malfoy,75
+Errol,Errol,19
+Celestina,Celestina,11
+Lockhart,Lockhart,191
+Gilderoy Lockhart,Gilderoy Lockhart,31
+Mundungus Fletcher,Mundungus Fletcher,13
+Molly,Molly,49
+Arthur,Arthur,71
+Martin,Martin,1
+Tuck,Tuck,3
+Star,Star,3
+Arthur Weasley,Arthur Weasley,23
+Draco Harry,Draco Harry,1
+Lucius,Lucius,45
+Mr Granger,Mr Granger,1
+Mrs Granger,Mrs Granger,3
+Ford,Ford,5
+Mrs Hetty,Mrs Hetty,1
+Mr Angus,Mr Angus,1
+Willow,Willow,28
+Minerva,Minerva,23
+Finch-Fletchley,Finch-Fletchley,3
+Justin,Justin,36
+Colin Creevey,Colin Creevey,18
+Colin,Colin,45
+Mr Creevey,Mr Creevey,1
+Creevey,Creevey,13
+Ogden,Ogden,57
+Miss Hermione,Miss Hermione,1
+Wait,Wait,6
+Alicia,Alicia,33
+Katie,Katie,70
+Gladys,Gladys,2
+Veronica,Veronica,2
+Scott,Scott,2
+Patrick Delaney,Patrick Delaney,1
+Sly,Sly,1
+Madam,Madam,41
+Patrick,Patrick,8
+Hunt,Hunt,3
+Moaning Myrtle,Moaning Myrtle,41
+Myrtle,Myrtle,60
+Argus,Argus,7
+Gilderoy,Gilderoy,9
+Justin Finch-Fletchley,Justin Finch-Fletchley,9
+Lavender Brown,Lavender Brown,32
+Godric Gryffindor,Godric Gryffindor,12
+Helga,Helga,2
+Rowena Ravenclaw,Rowena Ravenclaw,5
+Salazar Slytherin,Salazar Slytherin,11
+Miss Brown,Miss Brown,3
+Potter Harry,Potter Harry,3
+Miss Bulstrode,Miss Bulstrode,1
+Millicent Bulstrode,Millicent Bulstrode,10
+Millicent,Millicent,5
+Boot,Boot,1
+Ernie,Ernie,65
+Sinistra,Sinistra,9
+Peter Weasley,Peter Weasley,1
+Bulstrode,Bulstrode,1
+Riddle,Riddle,195
+Mabel,Mabel,1
+Ernie Macmillan,Ernie Macmillan,26
+Wash,Wash,1
+Valentine,Valentine,5
+Tom Riddle,Tom Riddle,46
+June,June,16
+Marvolo,Marvolo,16
+Rubeus,Rubeus,3
+Penelope Clearwater,Penelope Clearwater,4
+Fudge,Fudge,359
+Cornelius,Cornelius,23
+Olive,Olive,3
+Miss Weasley,Miss Weasley,2
+Armando,Armando,6
+Bathilda,Bathilda,47
+Ron Harry,Ron Harry,1
+France,France,5
+Kit,Kit,1
+Stan Shunpike,Stan Shunpike,12
+Stan,Stan,57
+Madam Marsh,Madam Marsh,5
+Stanley,Stanley,1
+Ole,Ole,1
+Marjorie Dursley,Marjorie Dursley,1
+Miss Dursley,Miss Dursley,1
+Florean Fortescue,Florean Fortescue,6
+Price,Price,2
+Cassandra,Cassandra,3
+Lupin,Lupin,633
+Vincent Crabbe,Vincent Crabbe,3
+Gregory Goyle,Gregory Goyle,4
+Poppy,Poppy,3
+Kettleburn,Kettleburn,2
+Major,Major,2
+Trelawney,Trelawney,228
+Pat,Pat,1
+Pansy,Pansy,20
+Binky,Binky,3
+Hannah Abbott,Hannah Abbott,14
+Cedric Diggory,Cedric Diggory,26
+Diggory,Diggory,30
+Davey,Davey,1
+Sirius,Sirius,861
+Peter Pettigrew,Peter Pettigrew,10
+Pettigrew,Pettigrew,90
+Mr Hagrid,Mr Hagrid,1
+April,April,6
+Derek,Derek,1
+Kit Hermione,Kit Hermione,1
+Vector,Vector,7
+Cho Chang,Cho Chang,20
+Penny,Penny,1
+Penelope,Penelope,2
+Davies,Davies,9
+Cho,Cho,159
+Chang,Chang,4
+Honey,Honey,1
+Chris,Chris,1
+Wake,Wake,2
+Montague,Montague,32
+Derrick,Derrick,5
+Macnair,Macnair,15
+Peter,Peter,36
+Remus,Remus,25
+Mr Black,Mr Black,1
+Er,Er,8
+West,West,8
+Walden Macnair,Walden Macnair,2
+Sirius Harry,Sirius Harry,2
+Mrs Riddle,Mrs Riddle,1
+Frank Bryce,Frank Bryce,6
+Frank,Frank,57
+Dot,Dot,2
+Bertha Jorkins,Bertha Jorkins,22
+Bertha,Bertha,16
+Molly Weasley,Molly Weasley,3
+Mr Crouch,Mr Crouch,142
+Ludo Bagman,Ludo Bagman,53
+Ludo,Ludo,12
+Otto,Otto,1
+Bagman,Bagman,138
+Viktor Krum,Viktor Krum,35
+Hill,Hill,4
+Amos Diggory,Amos Diggory,12
+Cedric,Cedric,246
+Amos,Amos,7
+Mr Diggory,Mr Diggory,45
+Basil,Basil,4
+Mr Bagman,Mr Bagman,13
+Kevin,Kevin,1
+Mrs Finnigan,Mrs Finnigan,2
+Krum,Krum,172
+Archie,Archie,5
+Cuthbert,Cuthbert,1
+Gilbert,Gilbert,1
+Arnie,Arnie,1
+Arnold,Arnold,4
+Roddy,Roddy,1
+Agatha,Agatha,1
+Barty Crouch,Barty Crouch,25
+Barty,Barty,16
+Crouch,Crouch,109
+Mrs Malfoy,Mrs Malfoy,1
+Hassan,Hassan,3
+Troy,Troy,7
+Aidan,Aidan,2
+Connolly,Connolly,1
+Mark,Mark,64
+Rita Skeeter,Rita Skeeter,88
+Skeeter,Skeeter,34
+Rita,Rita,55
+Mad-Eye,Mad-Eye,60
+Mad-Eye Moody,Mad-Eye Moody,30
+Patil,Patil,9
+Stewart,Stewart,2
+Dennis Creevey,Dennis Creevey,8
+Emma,Emma,1
+Moody,Moody,376
+Fancy,Fancy,1
+Finnigan,Finnigan,2
+Eloise,Eloise,4
+Arnold Weasley,Arnold Weasley,2
+Mr Moody,Mr Moody,2
+Lily Potter,Lily Potter,3
+Venus,Venus,3
+Thomas,Thomas,3
+Maxime,Maxime,90
+Karkaroff,Karkaroff,130
+Viktor,Viktor,11
+French,French,6
+Bartemius Crouch,Bartemius Crouch,4
+Fleur,Fleur,189
+Fleur Delacour,Fleur Delacour,28
+Vi,Vi,2
+Violet,Violet,3
+Quill,Quill,8
+Delacour,Delacour,19
+Gregorovitch,Gregorovitch,35
+Yule,Yule,13
+Joey,Joey,1
+Padma,Padma,14
+Padma Patil,Padma Patil,7
+Roger Davies,Roger Davies,16
+Igor,Igor,2
+Vicky,Vicky,5
+Ali,Ali,1
+Roger,Roger,3
+Boris,Boris,2
+Grubbly-Plank,Grubbly-Plank,46
+Alastor,Alastor,5
+Barry Crouch,Barry Crouch,2
+Aberforth,Aberforth,55
+Gabrielle,Gabrielle,10
+Scarlet,Scarlet,1
+Miss Parkinson,Miss Parkinson,4
+Avery,Avery,11
+Chuck,Chuck,2
+Happy Easter,Happy Easter,1
+May,May,7
+Mr Krum,Mr Krum,1
+Miss Delacour,Miss Delacour,2
+Mrs Fudge,Mrs Fudge,1
+Carry,Carry,5
+Georges,Georges,1
+Antonin Dolohov,Antonin Dolohov,3
+Dolohov,Dolohov,29
+Travers,Travers,33
+Rookwood,Rookwood,19
+Frank Longbottom,Frank Longbottom,2
+Mr Fudge,Mr Fudge,5
+Florence,Florence,1
+Mrs Longbottom,Mrs Longbottom,11
+Nott,Nott,9
+Mr Goyle,Mr Goyle,1
+Alastor Moody,Alastor Moody,6
+Dumbledore Snape,Dumbledore Snape,1
+Remus Lupin,Remus Lupin,12
+Arabella Figg,Arabella Figg,2
+Mrs Diggory,Mrs Diggory,1
+Olympe,Olympe,9
+Mary,Mary,3
+Mark Evans,Mark Evans,1
+Mundungus,Mundungus,102
+Mr Prentice,Mr Prentice,1
+Adam,Adam,4
+Weasley Dumbledore,Weasley Dumbledore,1
+Petunia Dursley,Petunia Dursley,1
+Nymphadora,Nymphadora,5
+Tonks,Tonks,182
+Nymphadora Tonks,Nymphadora Tonks,3
+Kingsley,Kingsley,65
+Emmeline,Emmeline,1
+Hestia,Hestia,13
+Kingsley Shacklebolt,Kingsley Shacklebolt,16
+Sturgis Podmore,Sturgis Podmore,7
+Emmeline Vance,Emmeline Vance,5
+Harris,Harris,1
+Mrs Black,Mrs Black,12
+Phineas Nigellus,Phineas Nigellus,53
+Andromeda,Andromeda,6
+Bellatrix,Bellatrix,136
+Ted Tonks,Ted Tonks,9
+Narcissa Black,Narcissa Black,1
+Bellatrix Black,Bellatrix Black,1
+Rodolphus Lestrange,Rodolphus Lestrange,1
+Rodolphus,Rodolphus,2
+Rabastan,Rabastan,2
+Bellatrix Lestrange,Bellatrix Lestrange,25
+Amelia Bones,Amelia Bones,6
+Eric,Eric,4
+Oswald Fudge,Oswald Fudge,2
+Susan Bones,Susan Bones,6
+Jane Umbridge,Jane Umbridge,5
+Ignatius Weasley,Ignatius Weasley,1
+Albus Percival,Albus Percival,2
+Brian Dumbledore,Brian Dumbledore,2
+Madam Bones,Madam Bones,22
+Doreen Figg,Doreen Figg,1
+Wilbert,Wilbert,4
+Podmore,Podmore,4
+Marlene,Marlene,1
+Alice Longbottom,Alice Longbottom,2
+Alice,Alice,4
+Benjy,Benjy,2
+Edgar Bones,Edgar Bones,1
+Elphias Doge,Elphias Doge,5
+Gideon Prewett,Gideon Prewett,2
+Fabian,Fabian,2
+Dorcas,Dorcas,1
+Sturgis,Sturgis,8
+Lovegood,Lovegood,21
+Luna,Luna,250
+Luna Lovegood,Luna Lovegood,23
+Wit,Wit,1
+Macmillan,Macmillan,2
+Anthony Goldstein,Anthony Goldstein,7
+Will Fudge,Will Fudge,1
+Norton,Norton,2
+Umbridge,Umbridge,518
+Patricia,Patricia,1
+Inigo,Inigo,1
+Page,Page,1
+Ginger Newt,Ginger Newt,2
+Dolores Umbridge,Dolores Umbridge,22
+Geoffrey,Geoffrey,1
+Harry Harry,Harry Harry,1
+Wilfred,Wilfred,1
+Malkin,Malkin,1
+Percy Harry,Percy Harry,1
+Madam Marchbanks,Madam Marchbanks,2
+Miss Johnson,Miss Johnson,1
+Michael Corner,Michael Corner,12
+Terry Boot,Terry Boot,9
+Smith,Smith,16
+Zacharias,Zacharias,12
+Zacharias Smith,Zacharias Smith,21
+Michael,Michael,12
+Umbridge Harry,Umbridge Harry,1
+Case,Case,1
+Barnabas,Barnabas,6
+Anthony,Anthony,1
+Marietta,Marietta,32
+Miles,Miles,1
+Barry Ryan,Barry Ryan,1
+Ginger,Ginger,1
+Dolores,Dolores,8
+Ruddy,Ruddy,2
+Jack,Jack,3
+Everard,Everard,2
+Elfrida,Elfrida,1
+Phineas,Phineas,17
+Nigellus,Nigellus,3
+Broderick,Broderick,3
+Llewellyn,Llewellyn,1
+Augustus,Augustus,2
+Willy,Willy,7
+Janus,Janus,1
+Agnes,Agnes,2
+Lestrange,Lestrange,6
+Gideon,Gideon,1
+Fabian Prewett,Fabian Prewett,2
+Augustus Rookwood,Augustus Rookwood,1
+Miriam,Miriam,1
+Jack Russell,Jack Russell,1
+Theodore Nott,Theodore Nott,1
+Madam Edgecombe,Madam Edgecombe,1
+Miss Edgecombe,Miss Edgecombe,7
+Fortescue,Fortescue,1
+Edgecombe,Edgecombe,1
+Madam Umbridge,Madam Umbridge,1
+Shacklebolt,Shacklebolt,3
+Dawlish,Dawlish,11
+Catherine,Catherine,3
+Evans,Evans,3
+Marietta Edgecombe,Marietta Edgecombe,2
+Mrs Montague,Mrs Montague,1
+Bradley,Bradley,2
+Hermy,Hermy,3
+Griselda Marchbanks,Griselda Marchbanks,2
+Marchbanks,Marchbanks,13
+Eddie,Eddie,1
+Harold,Harold,2
+Daphne,Daphne,1
+Orion,Orion,1
+Pierre,Pierre,2
+Ron Neville,Ron Neville,1
+Bella,Bella,12
+Dawn,Dawn,3
+Narcissa,Narcissa,54
+Miss Lovegood,Miss Lovegood,2
+Corner,Corner,1
+Herbert,Herbert,3
+Prince,Prince,61
+Vance,Vance,1
+Somerset,Somerset,1
+Scrimgeour,Scrimgeour,109
+Rufus Scrimgeour,Rufus Scrimgeour,16
+Cissy,Cissy,2
+Yaxley,Yaxley,45
+Greyback,Greyback,64
+Augusta Longbottom,Augusta Longbottom,1
+Miss Bellatrix,Miss Bellatrix,1
+Rufus,Rufus,4
+Horace,Horace,17
+Horace Slughorn,Horace Slughorn,7
+Slughorn,Slughorn,350
+Dirk Cresswell,Dirk Cresswell,6
+Ambrosius,Ambrosius,1
+Igor Karkaroff,Igor Karkaroff,2
+Florean,Florean,1
+Narcissa Malfoy,Narcissa Malfoy,6
+Glory,Glory,2
+Puff,Puff,4
+Romilda,Romilda,3
+Romilda Vane,Romilda Vane,12
+Zabini,Zabini,36
+Cormac McLaggen,Cormac McLaggen,6
+McLaggen,McLaggen,55
+Marcus,Marcus,2
+Cormac,Cormac,4
+Pip,Pip,1
+Buck,Buck,2
+Parkinson,Parkinson,2
+Augusta,Augusta,1
+Hector,Hector,1
+Felix,Felix,29
+Humphrey,Humphrey,1
+Bob Ogden,Bob Ogden,2
+Bob,Bob,1
+Gaunt,Gaunt,33
+Mr Gaunt,Mr Gaunt,6
+Morfin,Morfin,47
+Merope,Merope,25
+Peverell,Peverell,10
+Cecilia,Cecilia,1
+Merope Gaunt,Merope Gaunt,1
+Marvolo Gaunt,Marvolo Gaunt,5
+Shunpike,Shunpike,3
+Mr Shunpike,Mr Shunpike,1
+Demelza Robins,Demelza Robins,4
+Jimmy,Jimmy,3
+Ritchie,Ritchie,1
+Demelza,Demelza,9
+Melinda,Melinda,1
+Glad,Glad,2
+Leanne,Leanne,15
+Nigellus Black,Nigellus Black,3
+Burke,Burke,9
+Merope Riddle,Merope Riddle,1
+Mrs Cole,Mrs Cole,20
+Martha,Martha,1
+Billy,Billy,2
+Amy Benson,Amy Benson,2
+Dennis Bishop,Dennis Bishop,2
+Bear,Bear,1
+Muriel,Muriel,44
+Sybill,Sybill,3
+Ronald,Ronald,7
+Grey,Grey,5
+Fenrir Grey,Fenrir Grey,2
+Fergus,Fergus,1
+Slughorn Harry,Slughorn Harry,1
+Morfin Gaunt,Morfin Gaunt,1
+Wilkie Twycross,Wilkie Twycross,3
+Twycross,Twycross,7
+Vane,Vane,1
+Ralph,Ralph,1
+Mag,Mag,1
+Sybill Trelawney,Sybill Trelawney,1
+Hepzibah Smith,Hepzibah Smith,3
+Hepzibah,Hepzibah,21
+Mr Burke,Mr Burke,3
+Miss Hepzibah,Miss Hepzibah,1
+Mr Riddle,Mr Riddle,1
+Octavius,Octavius,1
+Mr Finnigan,Mr Finnigan,1
+Montgomery,Montgomery,1
+Fenrir Greyback,Fenrir Greyback,5
+Pomona,Pomona,2
+Rupert,Rupert,2
+Bertram Aubrey,Bertram Aubrey,1
+Aubrey,Aubrey,1
+Eileen Prince,Eileen Prince,4
+Hermione Felix,Hermione Felix,1
+Amycus,Amycus,15
+Alecto,Alecto,6
+Fenrir,Fenrir,3
+Levi,Levi,1
+Filius,Filius,3
+Rosalind,Rosalind,1
+Tobias Snape,Tobias Snape,2
+Pius Thicknesse,Pius Thicknesse,5
+Thicknesse,Thicknesse,12
+Charity Burbage,Charity Burbage,4
+Burbage,Burbage,3
+Charity,Charity,2
+Percival,Percival,5
+Kendra,Kendra,17
+Ariana,Ariana,39
+Betty,Betty,2
+Doge,Doge,36
+Ivor,Ivor,2
+Dedalus,Dedalus,13
+Trace,Trace,14
+Stanley Shunpike,Stanley Shunpike,1
+Dora,Dora,5
+Mrs Tonks,Mrs Tonks,2
+Mr Tonks,Mr Tonks,2
+Wendell,Wendell,2
+Monica,Monica,2
+Art,Art,2
+Hermione Jean,Hermione Jean,1
+Jean Granger,Jean Granger,1
+Bard,Bard,8
+Fortune,Fortune,1
+Barny,Barny,3
+Xenophilius,Xenophilius,66
+Mr Lovegood,Mr Lovegood,11
+Xenophilius Lovegood,Xenophilius Lovegood,5
+Ginevra,Ginevra,1
+William Arthur,William Arthur,1
+Fleur Isabelle,Fleur Isabelle,1
+Mr Doge,Mr Doge,1
+Elphias,Elphias,6
+Barry,Barry,2
+Kendra Dumbledore,Kendra Dumbledore,2
+Lancelot,Lancelot,2
+Bagshot,Bagshot,4
+Thorfinn Rowle,Thorfinn Rowle,1
+Dusty,Dusty,1
+Rowle,Rowle,5
+Dumbledore Harry,Dumbledore Harry,1
+Fletcher,Fletcher,2
+Miss Bella,Miss Bella,1
+Miss Cissy,Miss Cissy,1
+John Lupin,John Lupin,1
+Alecto Carrow,Alecto Carrow,3
+Mafalda,Mafalda,7
+Reg Cattermole,Reg Cattermole,5
+Runcorn,Runcorn,9
+Cattermole,Cattermole,5
+Albert,Albert,3
+Cresswell,Cresswell,2
+Reg,Reg,3
+Bernie,Bernie,1
+Mary Cattermole,Mary Cattermole,1
+Mrs Cattermole,Mrs Cattermole,27
+Mary Elizabeth,Mary Elizabeth,1
+Reginald Cattermole,Reginald Cattermole,1
+Maisie,Maisie,1
+Ellie,Ellie,1
+Alfred,Alfred,1
+Mr Cattermole,Mr Cattermole,1
+Dirk,Dirk,8
+Bill Weasley,Bill Weasley,1
+Wright,Wright,1
+Abbott,Abbott,2
+Ignotus,Ignotus,6
+Gellert Grindelwald,Gellert Grindelwald,9
+Ariana Dumbledore,Ariana Dumbledore,3
+Gellert,Gellert,5
+Aberforth Dumbledore,Aberforth Dumbledore,2
+Shell,Shell,9
+Egbert,Egbert,1
+Antioch,Antioch,1
+Cadmus,Cadmus,1
+Ignotus Peverell,Ignotus Peverell,2
+Royal,Royal,4
+Vernon Dudley,Vernon Dudley,2
+Clearwater,Clearwater,1
+Remus John,Remus John,1
+Teddy Lupin,Teddy Lupin,1
+Marius,Marius,1
+Madam Lestrange,Madam Lestrange,2
+Carrow,Carrow,3
+Gray Lady,Gray Lady,3
+Gray,Gray,1
+Helena Ravenclaw,Helena Ravenclaw,3
+Teddy,Teddy,4
+Lily Evans,Lily Evans,2
+Lily Snape,Lily Snape,1
+Dexter Fortescue,Dexter Fortescue,1
+Al,Al,2
+Rose,Rose,6
+Hugo,Hugo,3

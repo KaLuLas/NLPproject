@@ -14,6 +14,8 @@ from nltk.corpus import names
 import pre_treatment
 
 path = ".\half_done\\"
+save_csv_path = ".\csv\\"
+file_name = ""
 
 appear_dict_radius = 4
 threshold = 0
@@ -25,9 +27,9 @@ pd.set_option('max_rows', 20)
 name_dict = {}
 family_name_dict = {}
 appearance_proj_dict = {}
-# Node in relation graph
+relation_record_dict = {}
+# Node / Edge in relation graph
 freq_dict = {}
-# Edge in relation graph
 relation_score_dict = {}
 
 
@@ -173,37 +175,47 @@ def build_appearance_dict(family_name_dict, radius):
 
 
 def characters_relation_extract(input_dict):
+    global relation_score_dict
     input_dict = dict(sorted(input_dict.items(), reverse=True, key=lambda x: x[1]))
     select_figures = [figure_name for figure_name in input_dict.keys()]
     select_figures = select_figures[:figure_selected]
     relation_list = list(itertools.combinations(select_figures, 2))
-    relation_score_dict = {}.fromkeys(relation_list)
-    for key in relation_score_dict.keys():
-        relation_score_dict[key] = 0
+    # save location where communication between figures take place
+    relation_record_dict = {}.fromkeys(relation_list)
+    for key in relation_record_dict.keys():
+        relation_record_dict[key] = []
+
+    pbar = tqdm.tqdm(total=len(appearance_proj_dict), ncols=60)
     for line, appear_list in appearance_proj_dict.items():
+        pbar.update(1)
         for relation in relation_list:
             if set(relation).issubset(set(appear_list)):
-                relation_score_dict[relation] += 1
+                relation_record_dict[relation].append(line)
+    pbar.close()
 
     breakup = []
-    for relation, score in relation_score_dict.items():
-        if score == 0:
+    for relation, relation_appear_list in relation_record_dict.items():
+        if len(relation_appear_list) == 0:
             breakup.append(relation)
     for breakup_relation in breakup:
-        del relation_score_dict[breakup_relation]
-
-    relations = list(relation_score_dict.keys())
-    scores = np.asarray(list(relation_score_dict.values()))
+        del relation_record_dict[breakup_relation]
+    # calculate how intimate they are
+    relations = list(relation_record_dict.keys())
+    scores = np.asarray(list(len(value) for value in relation_record_dict.values()))
     nor_scores = []
     for score in scores:
         score = round((score - scores.min()) / (scores.max() - scores.min()), 5)
         nor_scores.append(score)
 
     df_out = pd.DataFrame()
-    df_out['Existed Relations in Passage'] = relations
+    df_out['Existed Relations'] = relations
     df_out['Score(Normalized)'] = nor_scores
     print(df_out.sort_values(by='Score(Normalized)', ascending=False))
-    return relation_score_dict
+
+    for relation, relation_appear_list in relation_record_dict.items():
+        relation_score_dict[relation] = len(relation_appear_list)
+
+    return relation_record_dict
 
 
 def display(input_dict, display_type='first_appear'):
@@ -231,7 +243,7 @@ def display(input_dict, display_type='first_appear'):
             print(df_out)
     elif display_type == 'print_family_name_dict':
         print("Family Name Dictionary:")
-        for family_name, info in family_name_dict.items():
+        for family_name, info in input_dict.items():
             mat = "{:25}\t{:5}\t{:}"
             family_member = [member[0] for member in info[1]]
             print(mat.format(family_name, str(info[0]), " / ".join(family_member)))
@@ -247,8 +259,17 @@ def display(input_dict, display_type='first_appear'):
         plt.imshow(wc)
         plt.axis('off')
         plt.show()
-    elif display_type == 'characters_relation_graph':
-        relation_score_dict = characters_relation_extract(input_dict)
+    elif display_type == 'characters_relation_graph(csv generate)':
+        global relation_record_dict
+        relation_record_dict = characters_relation_extract(input_dict)
+        with open(save_csv_path + file_name[0:file_name.find(".")] + '_node.csv', 'w', encoding='utf-8') as file:
+            file.write('id,label,weight\n')
+            for name, freq in freq_dict.items():
+                file.write(name + ',' + name + ',' + str(freq) + '\n')
+        with open(save_csv_path + file_name[0:file_name.find(".")] + '_edge.csv', 'w', encoding='utf-8') as file:
+            file.write('source,target,weight\n')
+            for name, freq in relation_score_dict.items():
+                file.write(name[0] + ',' + name[1] + ',' + str(freq) + '\n')
 
 
 files = os.listdir(path)
@@ -256,10 +277,14 @@ print('Available files under path ', path, ':\n')
 for file in enumerate(files):
     mat = "[{:3}] {:}"
     print(mat.format(file[0], file[1]))
-file_name = input('\nWhich to read? (with correct file name):')
-# TODO exception
-if len(file_name) == 0:
-    file_name = 'book1_sent.txt'
+try:
+    file_name = input('\nWhich to read? (with correct file name):')
+    if len(file_name) == 0:
+        file_name = 'book1_sent.txt'
+    elif file_name not in files:
+        raise ValueError("[ERROR] Invalid Filename")
+except ValueError as ve:
+    print(ve)
 
 if file_name in files:
     if '_sent' not in file_name:
@@ -277,8 +302,9 @@ if file_name in files:
     for name, appear_list in name_dict.items():
         full_weight += len(appear_list)
         freq_dict[name] = len(appear_list)
-    for name, appear_count in freq_dict.items():
-        freq_dict[name] = round(appear_count / full_weight, 4)
+    # Weight of specific name don't need to be normalized for now
+    # for name, appear_count in freq_dict.items():
+    #    freq_dict[name] = round(appear_count / full_weight, 4)
 
     while True:
         command_dict = {'0': ["first_appear", name_dict],
@@ -286,17 +312,24 @@ if file_name in files:
                         '2': ["print_family_name_dict", family_name_dict],
                         '3': ["print_appearance_dict(after projection)", appearance_proj_dict],
                         '4': ["characters_word_cloud", freq_dict],
-                        '5': ["characters_relation_graph", freq_dict]
+                        '5': ["characters_relation_graph(csv generate)", freq_dict],
+                        'Q': ["exit", name_dict]
                         }
         command_table = [(key, value[0]) for key, value in command_dict.items()]
         print('\nAvailable commands: ')
         for (index, command) in command_table:
             mat = "[{:>3}] {:}"
             print(mat.format(index, command))
-        command = input('\nCommand selected: ')
-        # TODO exception
-        selected_dict = command_dict[command][1]
-        display(selected_dict, command_dict[command][0])
+        try:
+            command = input('\nCommand selected: ')
+            if command == 'Q':
+                exit()
+            elif command not in command_dict.keys():
+                raise KeyError("[ERROR] Invalid Command")
+            selected_dict = command_dict[command][1]
+            display(selected_dict, command_dict[command][0])
+        except KeyError as ke:
+            print(ke)
 else:
     pass
 
