@@ -82,7 +82,7 @@ relation_graph.png 在七本书基础上生成的人物联系图（不包含确�
 
 
 
-**TODO**
+### TODO
 
 1. 文本预处理: 分句，去除大标题，空行，替换符号，Page，归一一下放到pre里面去 **finished**
 2. 异常的省略号导致的分句问题 **finished**
@@ -96,7 +96,12 @@ relation_graph.png 在七本书基础上生成的人物联系图（不包含确�
 10. 应该用标准化 **finished**
 11. 交互报错机制 **finished**
 12. figure_selected 需要调参 做曲线（后期
-13. 关系提取开始
+13. 把姓名字典保存并重新加载的机制（形成时间过长
+14. 关系提取开始
+
+
+
+### 
 
 ---------人物关系部分--------
 
@@ -119,6 +124,8 @@ PART2 根据关系找出人名实体对，再去找包含这个人名对的所�
 关系可视化？http://www.cnblogs.com/Sinte-Beuve/p/7679392.html
 
 
+
+### History
 
 **2019/01/10**
 
@@ -160,7 +167,7 @@ Mr. Harry Potter / Miss Hermione Granger问题（在姓名提取中解决 **fini
 
 现在名字识别已经几乎没有问题
 
-![name_detect_logic](D:\QQPCmgr\Desktop\Courses\大三\能量炮\NLPproject\name_detect_logic.jpg)
+![name_detect_logic](https://github.com/KaLuLas/NLPproject/blob/master/name_detect_logic.jpg?raw=true)
 
 
 
