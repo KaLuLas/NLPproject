@@ -3,8 +3,8 @@ import re
 import nltk
 
 
-def text_pre_treat():
-    file_name = 'book1'
+def text_pre_treat(file_name):
+    # file_name = 'book1'
     input_text = open(".\half_done\\" + file_name + ".txt", "r+", encoding="utf-8")
     output_text = open(".\half_done\\" + file_name + "_sent.txt", "w", encoding="utf-8")
     output_text_list = []
@@ -45,7 +45,3 @@ def name_pre_treat():
     name_string = "".join(output_text_list)
     name_set = sorted(set(name_string.split(" ")))
     output_text.write(" ".join(name_set))
-
-
-text_pre_treat() # treat book*.txt
-# name_pre_treat()  # treat PotterNameEnglish.txt
