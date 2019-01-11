@@ -1,404 +1,362 @@
 source,target,weight
-Harry,Ron,5572
-Harry,Hermione,4626
-Harry,Dumbledore,2393
-Harry,Hagrid,1381
-Harry,Snape,1292
-Harry,Voldemort,863
-Harry,Malfoy,920
-Harry,Sirius,874
-Harry,Fred,683
-Harry,Lupin,560
-Harry,Harry Potter,634
-Harry,George,603
-Harry,McGonagall,515
-Harry,Ginny,674
-Harry,Neville,593
-Harry,Mrs Weasley,478
-Harry,Mr Weasley,455
-Harry,Umbridge,406
-Harry,Gryffindor,538
-Harry,Potter,449
-Harry,Vernon,455
-Harry,Moody,329
-Harry,Dudley,355
-Harry,Fudge,253
-Harry,Slughorn,365
-Harry,Dobby,299
-Harry,Percy,264
-Harry,Black,213
-Harry,Slytherin,265
-Ron,Hermione,3759
-Ron,Dumbledore,461
-Ron,Hagrid,506
-Ron,Snape,356
-Ron,Voldemort,130
-Ron,Malfoy,380
-Ron,Sirius,227
-Ron,Fred,384
-Ron,Lupin,157
-Ron,Harry Potter,208
-Ron,George,357
-Ron,McGonagall,199
-Ron,Ginny,418
-Ron,Neville,263
-Ron,Mrs Weasley,240
-Ron,Mr Weasley,120
-Ron,Umbridge,122
-Ron,Gryffindor,280
-Ron,Potter,85
-Ron,Vernon,27
-Ron,Moody,74
-Ron,Dudley,22
-Ron,Fudge,36
-Ron,Slughorn,95
-Ron,Dobby,56
-Ron,Percy,181
-Ron,Black,90
-Ron,Slytherin,114
-Hermione,Dumbledore,431
-Hermione,Hagrid,537
-Hermione,Snape,333
-Hermione,Voldemort,157
-Hermione,Malfoy,266
-Hermione,Sirius,259
-Hermione,Fred,264
-Hermione,Lupin,151
-Hermione,Harry Potter,196
-Hermione,George,221
-Hermione,McGonagall,148
-Hermione,Ginny,347
-Hermione,Neville,237
-Hermione,Mrs Weasley,183
-Hermione,Mr Weasley,87
-Hermione,Umbridge,213
-Hermione,Gryffindor,216
-Hermione,Potter,83
-Hermione,Vernon,9
-Hermione,Moody,81
-Hermione,Dudley,12
-Hermione,Fudge,40
-Hermione,Slughorn,94
-Hermione,Dobby,56
-Hermione,Percy,83
-Hermione,Black,78
-Hermione,Slytherin,53
-Dumbledore,Hagrid,228
-Dumbledore,Snape,363
-Dumbledore,Voldemort,299
-Dumbledore,Malfoy,101
-Dumbledore,Sirius,214
-Dumbledore,Fred,46
-Dumbledore,Lupin,60
-Dumbledore,Harry Potter,132
-Dumbledore,George,41
-Dumbledore,McGonagall,187
-Dumbledore,Ginny,54
-Dumbledore,Neville,49
-Dumbledore,Mrs Weasley,48
-Dumbledore,Mr Weasley,58
-Dumbledore,Umbridge,71
-Dumbledore,Gryffindor,58
-Dumbledore,Potter,91
-Dumbledore,Vernon,30
-Dumbledore,Moody,88
-Dumbledore,Dudley,17
-Dumbledore,Fudge,184
-Dumbledore,Slughorn,86
-Dumbledore,Dobby,35
-Dumbledore,Percy,44
-Dumbledore,Black,27
-Dumbledore,Slytherin,40
-Hagrid,Snape,72
-Hagrid,Voldemort,41
-Hagrid,Malfoy,116
-Hagrid,Sirius,41
-Hagrid,Fred,32
-Hagrid,Lupin,29
-Hagrid,Harry Potter,80
-Hagrid,George,22
-Hagrid,McGonagall,61
-Hagrid,Ginny,26
-Hagrid,Neville,35
-Hagrid,Mrs Weasley,26
-Hagrid,Mr Weasley,22
-Hagrid,Umbridge,61
-Hagrid,Gryffindor,40
-Hagrid,Potter,26
-Hagrid,Vernon,16
-Hagrid,Moody,30
-Hagrid,Dudley,14
-Hagrid,Fudge,17
-Hagrid,Slughorn,50
-Hagrid,Dobby,6
-Hagrid,Percy,12
-Hagrid,Black,13
-Hagrid,Slytherin,20
-Snape,Voldemort,125
-Snape,Malfoy,189
-Snape,Sirius,145
-Snape,Fred,10
-Snape,Lupin,122
-Snape,Harry Potter,66
-Snape,George,11
-Snape,McGonagall,109
-Snape,Ginny,28
-Snape,Neville,80
-Snape,Mrs Weasley,7
-Snape,Mr Weasley,16
-Snape,Umbridge,43
-Snape,Gryffindor,80
-Snape,Potter,150
-Snape,Vernon,2
-Snape,Moody,61
-Snape,Dudley,2
-Snape,Fudge,23
-Snape,Slughorn,36
-Snape,Dobby,3
-Snape,Percy,11
-Snape,Black,49
-Snape,Slytherin,39
-Voldemort,Malfoy,20
-Voldemort,Sirius,96
-Voldemort,Fred,10
-Voldemort,Lupin,36
-Voldemort,Harry Potter,62
-Voldemort,George,4
-Voldemort,McGonagall,22
-Voldemort,Ginny,28
-Voldemort,Neville,34
-Voldemort,Mrs Weasley,14
-Voldemort,Mr Weasley,18
-Voldemort,Umbridge,8
-Voldemort,Gryffindor,6
-Voldemort,Potter,33
-Voldemort,Vernon,8
-Voldemort,Moody,12
-Voldemort,Dudley,4
-Voldemort,Fudge,14
-Voldemort,Slughorn,27
-Voldemort,Dobby,5
-Voldemort,Percy,3
-Voldemort,Black,19
-Voldemort,Slytherin,7
-Malfoy,Sirius,15
-Malfoy,Fred,38
-Malfoy,Lupin,18
-Malfoy,Harry Potter,22
-Malfoy,George,36
-Malfoy,McGonagall,31
-Malfoy,Ginny,33
-Malfoy,Neville,74
-Malfoy,Mrs Weasley,8
-Malfoy,Mr Weasley,17
-Malfoy,Umbridge,20
-Malfoy,Gryffindor,61
-Malfoy,Potter,83
-Malfoy,Moody,14
-Malfoy,Fudge,12
-Malfoy,Slughorn,39
-Malfoy,Dobby,15
-Malfoy,Percy,8
-Malfoy,Black,6
-Malfoy,Slytherin,81
-Sirius,Fred,39
-Sirius,Lupin,131
-Sirius,Harry Potter,45
-Sirius,George,43
-Sirius,McGonagall,16
-Sirius,Ginny,43
-Sirius,Neville,19
-Sirius,Mrs Weasley,73
-Sirius,Mr Weasley,35
-Sirius,Umbridge,35
-Sirius,Gryffindor,14
-Sirius,Potter,22
-Sirius,Vernon,14
-Sirius,Moody,34
-Sirius,Dudley,4
-Sirius,Fudge,14
-Sirius,Slughorn,4
-Sirius,Dobby,7
-Sirius,Percy,15
-Sirius,Black,44
-Sirius,Slytherin,2
-Fred,Lupin,29
-Fred,Harry Potter,60
-Fred,George,816
-Fred,McGonagall,21
-Fred,Ginny,123
-Fred,Neville,16
-Fred,Mrs Weasley,130
-Fred,Mr Weasley,79
-Fred,Umbridge,32
-Fred,Gryffindor,50
-Fred,Potter,6
-Fred,Vernon,10
-Fred,Moody,19
-Fred,Dudley,4
-Fred,Fudge,4
-Fred,Slughorn,8
-Fred,Dobby,4
-Fred,Percy,84
-Fred,Black,1
-Fred,Slytherin,19
-Lupin,Harry Potter,14
-Lupin,George,33
-Lupin,McGonagall,24
-Lupin,Ginny,29
-Lupin,Neville,45
-Lupin,Mrs Weasley,50
-Lupin,Mr Weasley,25
-Lupin,Umbridge,10
-Lupin,Gryffindor,12
-Lupin,Potter,16
-Lupin,Vernon,2
-Lupin,Moody,33
-Lupin,Fudge,4
-Lupin,Percy,8
-Lupin,Black,67
-Lupin,Slytherin,2
-Harry Potter,George,53
-Harry Potter,McGonagall,20
-Harry Potter,Ginny,21
-Harry Potter,Neville,18
-Harry Potter,Mrs Weasley,27
-Harry Potter,Mr Weasley,62
-Harry Potter,Gryffindor,20
-Harry Potter,Potter,45
-Harry Potter,Vernon,32
-Harry Potter,Moody,49
-Harry Potter,Dudley,19
-Harry Potter,Fudge,20
-Harry Potter,Slughorn,4
-Harry Potter,Dobby,99
-Harry Potter,Percy,17
-Harry Potter,Black,2
-Harry Potter,Slytherin,11
-George,McGonagall,16
-George,Ginny,115
-George,Neville,14
-George,Mrs Weasley,126
-George,Mr Weasley,76
-George,Umbridge,39
-George,Gryffindor,38
-George,Potter,11
-George,Vernon,10
-George,Moody,12
-George,Dudley,1
-George,Fudge,8
-George,Slughorn,5
-George,Dobby,3
-George,Percy,52
-George,Black,2
-George,Slytherin,20
-McGonagall,Ginny,30
-McGonagall,Neville,29
-McGonagall,Mrs Weasley,11
-McGonagall,Mr Weasley,17
-McGonagall,Umbridge,67
-McGonagall,Gryffindor,97
-McGonagall,Potter,89
-McGonagall,Vernon,3
-McGonagall,Moody,20
-McGonagall,Fudge,21
-McGonagall,Slughorn,25
-McGonagall,Dobby,4
-McGonagall,Percy,6
-McGonagall,Black,14
-McGonagall,Slytherin,26
-Ginny,Neville,97
-Ginny,Mrs Weasley,123
-Ginny,Mr Weasley,47
-Ginny,Umbridge,28
-Ginny,Gryffindor,34
-Ginny,Potter,11
-Ginny,Moody,2
-Ginny,Dudley,1
-Ginny,Fudge,2
-Ginny,Slughorn,30
-Ginny,Dobby,2
-Ginny,Percy,39
-Ginny,Black,1
-Ginny,Slytherin,14
-Neville,Mrs Weasley,2
-Neville,Umbridge,20
-Neville,Gryffindor,38
-Neville,Potter,25
-Neville,Moody,25
-Neville,Slughorn,18
-Neville,Dobby,1
-Neville,Percy,2
-Neville,Black,4
-Neville,Slytherin,18
-Mrs Weasley,Mr Weasley,129
-Mrs Weasley,Gryffindor,4
-Mrs Weasley,Potter,9
-Mrs Weasley,Vernon,8
-Mrs Weasley,Moody,14
-Mrs Weasley,Dudley,2
-Mrs Weasley,Fudge,10
-Mrs Weasley,Slughorn,2
-Mrs Weasley,Dobby,6
-Mrs Weasley,Percy,48
-Mrs Weasley,Black,6
-Mr Weasley,Umbridge,7
-Mr Weasley,Gryffindor,3
-Mr Weasley,Potter,8
-Mr Weasley,Vernon,34
-Mr Weasley,Moody,8
-Mr Weasley,Dudley,19
-Mr Weasley,Fudge,19
-Mr Weasley,Slughorn,2
-Mr Weasley,Dobby,2
-Mr Weasley,Percy,50
-Mr Weasley,Black,8
-Mr Weasley,Slytherin,1
-Umbridge,Gryffindor,26
-Umbridge,Potter,31
-Umbridge,Moody,1
-Umbridge,Fudge,30
-Umbridge,Dobby,2
-Umbridge,Percy,2
-Umbridge,Black,2
-Umbridge,Slytherin,7
-Gryffindor,Potter,24
-Gryffindor,Moody,7
-Gryffindor,Dudley,1
-Gryffindor,Slughorn,11
-Gryffindor,Dobby,7
-Gryffindor,Percy,12
-Gryffindor,Black,4
-Gryffindor,Slytherin,102
-Potter,Vernon,13
-Potter,Moody,50
-Potter,Dudley,5
-Potter,Fudge,8
-Potter,Slughorn,7
-Potter,Dobby,35
-Potter,Percy,2
-Potter,Black,15
-Potter,Slytherin,6
-Vernon,Moody,4
-Vernon,Dudley,167
-Vernon,Fudge,2
-Vernon,Slughorn,2
-Vernon,Dobby,8
-Vernon,Percy,2
-Vernon,Black,2
-Moody,Dudley,1
-Moody,Fudge,4
-Moody,Dobby,3
-Moody,Percy,1
-Moody,Black,2
-Dudley,Fudge,2
-Dudley,Black,2
-Dudley,Slytherin,3
-Fudge,Dobby,1
-Fudge,Percy,18
-Fudge,Black,34
-Slughorn,Slytherin,15
-Dobby,Percy,1
-Percy,Black,3
-Percy,Slytherin,5
-Black,Slytherin,1
+Harry,Ron,2102
+Harry,Hermione,1662
+Harry,Dumbledore,888
+Harry,Hagrid,491
+Harry,Snape,479
+Harry,Voldemort,321
+Harry,Malfoy,347
+Harry,Sirius,308
+Harry,Fred,210
+Harry,Lupin,178
+Harry,Harry Potter,206
+Harry,George,198
+Harry,McGonagall,178
+Harry,Ginny,230
+Harry,Neville,217
+Harry,Mrs Weasley,155
+Harry,Mr Weasley,154
+Harry,Umbridge,138
+Harry,Gryffindor,187
+Harry,Potter,120
+Harry,Vernon,163
+Harry,Moody,115
+Harry,Dudley,116
+Harry,Fudge,81
+Harry,Slughorn,140
+Harry,Dobby,116
+Harry,Percy,86
+Harry,Black,62
+Harry,Slytherin,86
+Ron,Hermione,1558
+Ron,Dumbledore,125
+Ron,Hagrid,156
+Ron,Snape,92
+Ron,Voldemort,39
+Ron,Malfoy,113
+Ron,Sirius,63
+Ron,Fred,127
+Ron,Lupin,42
+Ron,Harry Potter,61
+Ron,George,122
+Ron,McGonagall,57
+Ron,Ginny,156
+Ron,Neville,83
+Ron,Mrs Weasley,74
+Ron,Mr Weasley,29
+Ron,Umbridge,30
+Ron,Gryffindor,89
+Ron,Potter,16
+Ron,Vernon,8
+Ron,Moody,20
+Ron,Dudley,5
+Ron,Fudge,10
+Ron,Slughorn,30
+Ron,Dobby,10
+Ron,Percy,61
+Ron,Black,26
+Ron,Slytherin,31
+Hermione,Dumbledore,115
+Hermione,Hagrid,173
+Hermione,Snape,92
+Hermione,Voldemort,45
+Hermione,Malfoy,80
+Hermione,Sirius,78
+Hermione,Fred,82
+Hermione,Lupin,42
+Hermione,Harry Potter,62
+Hermione,George,65
+Hermione,McGonagall,45
+Hermione,Ginny,136
+Hermione,Neville,81
+Hermione,Mrs Weasley,59
+Hermione,Mr Weasley,27
+Hermione,Umbridge,66
+Hermione,Gryffindor,64
+Hermione,Potter,12
+Hermione,Vernon,2
+Hermione,Moody,17
+Hermione,Dudley,1
+Hermione,Fudge,11
+Hermione,Slughorn,27
+Hermione,Dobby,12
+Hermione,Percy,25
+Hermione,Black,22
+Hermione,Slytherin,12
+Dumbledore,Hagrid,76
+Dumbledore,Snape,123
+Dumbledore,Voldemort,92
+Dumbledore,Malfoy,29
+Dumbledore,Sirius,81
+Dumbledore,Fred,10
+Dumbledore,Lupin,16
+Dumbledore,Harry Potter,42
+Dumbledore,George,10
+Dumbledore,McGonagall,57
+Dumbledore,Ginny,16
+Dumbledore,Neville,16
+Dumbledore,Mrs Weasley,12
+Dumbledore,Mr Weasley,18
+Dumbledore,Umbridge,21
+Dumbledore,Gryffindor,17
+Dumbledore,Potter,30
+Dumbledore,Vernon,10
+Dumbledore,Moody,31
+Dumbledore,Dudley,6
+Dumbledore,Fudge,60
+Dumbledore,Slughorn,27
+Dumbledore,Dobby,13
+Dumbledore,Percy,14
+Dumbledore,Black,7
+Dumbledore,Slytherin,14
+Hagrid,Snape,25
+Hagrid,Voldemort,16
+Hagrid,Malfoy,34
+Hagrid,Sirius,16
+Hagrid,Fred,9
+Hagrid,Lupin,10
+Hagrid,Harry Potter,27
+Hagrid,George,8
+Hagrid,McGonagall,23
+Hagrid,Ginny,6
+Hagrid,Neville,8
+Hagrid,Mrs Weasley,10
+Hagrid,Mr Weasley,7
+Hagrid,Umbridge,20
+Hagrid,Gryffindor,10
+Hagrid,Potter,6
+Hagrid,Vernon,4
+Hagrid,Moody,9
+Hagrid,Dudley,4
+Hagrid,Fudge,6
+Hagrid,Slughorn,18
+Hagrid,Percy,3
+Hagrid,Black,4
+Hagrid,Slytherin,5
+Snape,Voldemort,47
+Snape,Malfoy,69
+Snape,Sirius,57
+Snape,Fred,1
+Snape,Lupin,35
+Snape,Harry Potter,20
+Snape,George,3
+Snape,McGonagall,41
+Snape,Ginny,7
+Snape,Neville,26
+Snape,Mrs Weasley,2
+Snape,Mr Weasley,6
+Snape,Umbridge,16
+Snape,Gryffindor,21
+Snape,Potter,49
+Snape,Moody,24
+Snape,Fudge,9
+Snape,Slughorn,12
+Snape,Dobby,1
+Snape,Percy,3
+Snape,Black,17
+Snape,Slytherin,15
+Voldemort,Malfoy,7
+Voldemort,Sirius,35
+Voldemort,Fred,2
+Voldemort,Lupin,9
+Voldemort,Harry Potter,21
+Voldemort,McGonagall,7
+Voldemort,Ginny,9
+Voldemort,Neville,10
+Voldemort,Mrs Weasley,4
+Voldemort,Mr Weasley,5
+Voldemort,Umbridge,2
+Voldemort,Potter,8
+Voldemort,Vernon,2
+Voldemort,Moody,3
+Voldemort,Fudge,5
+Voldemort,Slughorn,9
+Voldemort,Dobby,1
+Voldemort,Percy,1
+Voldemort,Black,5
+Voldemort,Slytherin,2
+Malfoy,Sirius,3
+Malfoy,Fred,13
+Malfoy,Lupin,5
+Malfoy,Harry Potter,4
+Malfoy,George,12
+Malfoy,McGonagall,10
+Malfoy,Ginny,6
+Malfoy,Neville,24
+Malfoy,Mrs Weasley,1
+Malfoy,Mr Weasley,8
+Malfoy,Umbridge,6
+Malfoy,Gryffindor,17
+Malfoy,Potter,33
+Malfoy,Moody,5
+Malfoy,Fudge,5
+Malfoy,Slughorn,14
+Malfoy,Dobby,3
+Malfoy,Percy,2
+Malfoy,Black,1
+Malfoy,Slytherin,27
+Sirius,Fred,11
+Sirius,Lupin,52
+Sirius,Harry Potter,15
+Sirius,George,10
+Sirius,McGonagall,3
+Sirius,Ginny,9
+Sirius,Neville,4
+Sirius,Mrs Weasley,20
+Sirius,Mr Weasley,11
+Sirius,Umbridge,14
+Sirius,Gryffindor,5
+Sirius,Potter,6
+Sirius,Vernon,4
+Sirius,Moody,12
+Sirius,Fudge,3
+Sirius,Slughorn,2
+Sirius,Dobby,2
+Sirius,Percy,5
+Sirius,Black,16
+Fred,Lupin,8
+Fred,Harry Potter,19
+Fred,George,379
+Fred,McGonagall,5
+Fred,Ginny,43
+Fred,Neville,3
+Fred,Mrs Weasley,42
+Fred,Mr Weasley,21
+Fred,Umbridge,10
+Fred,Gryffindor,15
+Fred,Potter,1
+Fred,Vernon,2
+Fred,Moody,4
+Fred,Dudley,1
+Fred,Slughorn,2
+Fred,Dobby,1
+Fred,Percy,33
+Fred,Slytherin,5
+Lupin,Harry Potter,4
+Lupin,George,10
+Lupin,McGonagall,6
+Lupin,Ginny,5
+Lupin,Neville,14
+Lupin,Mrs Weasley,16
+Lupin,Mr Weasley,6
+Lupin,Umbridge,4
+Lupin,Gryffindor,2
+Lupin,Potter,5
+Lupin,Moody,10
+Lupin,Fudge,1
+Lupin,Percy,1
+Lupin,Black,27
+Harry Potter,George,16
+Harry Potter,McGonagall,3
+Harry Potter,Ginny,6
+Harry Potter,Neville,2
+Harry Potter,Mrs Weasley,10
+Harry Potter,Mr Weasley,25
+Harry Potter,Gryffindor,6
+Harry Potter,Potter,13
+Harry Potter,Vernon,10
+Harry Potter,Moody,16
+Harry Potter,Dudley,6
+Harry Potter,Fudge,6
+Harry Potter,Slughorn,2
+Harry Potter,Dobby,40
+Harry Potter,Percy,4
+Harry Potter,Black,1
+Harry Potter,Slytherin,3
+George,McGonagall,6
+George,Ginny,45
+George,Neville,3
+George,Mrs Weasley,37
+George,Mr Weasley,24
+George,Umbridge,11
+George,Gryffindor,12
+George,Potter,3
+George,Vernon,1
+George,Moody,3
+George,Fudge,3
+George,Slughorn,1
+George,Percy,18
+George,Slytherin,7
+McGonagall,Ginny,10
+McGonagall,Neville,11
+McGonagall,Mrs Weasley,2
+McGonagall,Mr Weasley,5
+McGonagall,Umbridge,20
+McGonagall,Gryffindor,32
+McGonagall,Potter,34
+McGonagall,Vernon,1
+McGonagall,Moody,7
+McGonagall,Fudge,5
+McGonagall,Slughorn,8
+McGonagall,Dobby,1
+McGonagall,Black,3
+McGonagall,Slytherin,6
+Ginny,Neville,40
+Ginny,Mrs Weasley,43
+Ginny,Mr Weasley,16
+Ginny,Umbridge,10
+Ginny,Gryffindor,12
+Ginny,Potter,2
+Ginny,Moody,1
+Ginny,Slughorn,11
+Ginny,Percy,10
+Ginny,Slytherin,4
+Neville,Umbridge,6
+Neville,Gryffindor,13
+Neville,Potter,3
+Neville,Moody,8
+Neville,Slughorn,6
+Neville,Percy,1
+Neville,Black,1
+Neville,Slytherin,5
+Mrs Weasley,Mr Weasley,41
+Mrs Weasley,Gryffindor,1
+Mrs Weasley,Potter,2
+Mrs Weasley,Vernon,1
+Mrs Weasley,Moody,5
+Mrs Weasley,Fudge,2
+Mrs Weasley,Dobby,2
+Mrs Weasley,Percy,9
+Mr Weasley,Umbridge,3
+Mr Weasley,Gryffindor,1
+Mr Weasley,Potter,1
+Mr Weasley,Vernon,13
+Mr Weasley,Moody,1
+Mr Weasley,Dudley,7
+Mr Weasley,Fudge,4
+Mr Weasley,Dobby,1
+Mr Weasley,Percy,11
+Mr Weasley,Black,3
+Umbridge,Gryffindor,8
+Umbridge,Potter,8
+Umbridge,Fudge,9
+Umbridge,Dobby,1
+Umbridge,Percy,1
+Umbridge,Black,1
+Umbridge,Slytherin,2
+Gryffindor,Potter,6
+Gryffindor,Moody,1
+Gryffindor,Slughorn,2
+Gryffindor,Dobby,2
+Gryffindor,Percy,4
+Gryffindor,Black,2
+Gryffindor,Slytherin,43
+Potter,Vernon,4
+Potter,Moody,16
+Potter,Slughorn,2
+Potter,Dobby,16
+Potter,Black,6
+Potter,Slytherin,2
+Vernon,Dudley,63
+Vernon,Fudge,1
+Vernon,Slughorn,1
+Vernon,Dobby,1
+Vernon,Percy,1
+Vernon,Black,1
+Moody,Dobby,1
+Moody,Black,1
+Dudley,Fudge,1
+Fudge,Percy,5
+Fudge,Black,8
+Slughorn,Slytherin,5
+Percy,Slytherin,1

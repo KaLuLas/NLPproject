@@ -21,7 +21,7 @@ save_pkl_path = ".\save\\"
 file_name_prefix = ""
 file_name = ""
 
-appear_dict_radius = 4
+appear_dict_radius = 0
 threshold = 0
 file_line_count = 0
 # relation extraction related
@@ -174,7 +174,7 @@ def build_appearance_dict(family_name_dict, radius):
     for key in appearance_dict.keys():
         if key - radius >= 0 and key + radius < file_line_count:
             for line in range(key - radius, key + radius + 1):
-                appearance_proj_dict[key] = appearance_dict[key] | appearance_dict[line]
+                appearance_proj_dict[key] = appearance_proj_dict[key] | appearance_dict[line]
 
     return appearance_proj_dict
 

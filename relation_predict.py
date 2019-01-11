@@ -12,16 +12,37 @@ names = []
 text = []
 
 
+def bag_of_words(appear_list):
+    pbar.update(1)
+    bow = ""
+    for line_num in appear_list:
+        line = re.sub('[,\!?\.();’”“—-]+', '', text[line_num])
+        bow += line
+    words = set(nltk.word_tokenize(bow))
+    return dict([(word, True) for word in words])
+
+
+def hapax_words(appear_list):
+    pbar.update(1)
+    bow = ""
+    for line_num in appear_list:
+        line = re.sub('[,\!?\.();’”“—-]+', '', text[line_num])
+        bow += line
+    words = nltk.word_tokenize(bow)
+    feature_freq = nltk.FreqDist(words)
+    hapax_word = feature_freq.hapaxes()
+    return dict([(word, True) for word in hapax_word])
+
+
 def related_word_freq(appear_list):
     pbar.update(1)
     bow = ""
     for line_num in appear_list:
-        # # DEAL WITH WORDS: punctuation
         line = re.sub('[,\!?\.();’”“—-]+', '', text[line_num])
         bow += line
     words = nltk.word_tokenize(bow)
     # DEAL WITH WORDS: stopwords and name
-    words = [word.lower() for word in words if word.lower() not in stop_list and word not in names]
+    # words = [word.lower() for word in words if word.lower() not in stop_list and word not in names]
     feature_freq = nltk.FreqDist(words)
     return feature_freq
 
@@ -48,9 +69,10 @@ def train(relation_record_dict, file_name_prefix, names_collec):
     global pbar
     pbar = tqdm.tqdm(total=len(relation_record_dict), ncols=60)
     feature_set = [(related_word_freq(appear_list), label_dict[relation])
-                   for relation, appear_list in relation_record_dict.items()]
+                   for relation, appear_list in relation_record_dict.items() if relation in label_dict.keys()]
     pbar.close()
     sum = 0
+    '''
     for i in range(50):
         print("round:", i)
         random.shuffle(feature_set)
@@ -60,6 +82,15 @@ def train(relation_record_dict, file_name_prefix, names_collec):
         score = nltk.classify.accuracy(classifier, test_set)
         sum += score
         print("accuracy:", score)
+        classifier.show_most_informative_features(10)
     print("average:", sum/50)
-    # classifier.show_most_informative_features(10)
+    '''
+    # random.shuffle(feature_set)
+    test_set = feature_set[:round(len(feature_set) / 5)]
+    train_set = feature_set[round(len(feature_set) / 5):]
+    classifier = nltk.NaiveBayesClassifier.train(train_set)
+    score = nltk.classify.accuracy(classifier, test_set)
+    classifier.show_most_informative_features(100)
+    print("accuracy:", score)
+
 
