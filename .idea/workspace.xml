@@ -2,8 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7c4e6be1-7999-4937-98ba-39486e54ef1d" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/relation_predict.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/human_name_extraction.py" beforeDir="false" afterPath="$PROJECT_DIR$/human_name_extraction.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/csv/input_sent_edge.csv" beforeDir="false" afterPath="$PROJECT_DIR$/csv/input_sent_edge.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/csv/input_sent_node.csv" beforeDir="false" afterPath="$PROJECT_DIR$/csv/input_sent_node.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/half_done/PotterNameEnglishOutput_save.txt" beforeDir="false" afterPath="$PROJECT_DIR$/half_done/PotterNameEnglishOutput_save.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/half_done/input_sent.txt" beforeDir="false" afterPath="$PROJECT_DIR$/half_done/input_sent.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/human_name_extraction.py" beforeDir="false" afterPath="$PROJECT_DIR$/potter_more.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/word_cloud.png" beforeDir="false" afterPath="$PROJECT_DIR$/word_cloud.png" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,45 +21,45 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/NLPproject$pre_treatment.coverage" NAME="pre_treatment Coverage Results" MODIFIED="1545824554304" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/NLPproject$human_name_extraction.coverage" NAME="human_name_extraction Coverage Results" MODIFIED="1547119363136" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/NLPproject$human_name_extraction.coverage" NAME="human_name_extraction Coverage Results" MODIFIED="1547217218406" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FavoritesManager">
     <favorites_list name="NLPproject" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="human_name_extraction.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/human_name_extraction.py">
+      <file leaf-file-name="relation_predict.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/relation_predict.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="638">
-              <caret line="29" column="25" lean-forward="true" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
+            <state relative-caret-position="616">
+              <caret line="60" column="20" lean-forward="true" selection-start-line="60" selection-start-column="20" selection-end-line="60" selection-end-column="20" />
               <folding>
-                <element signature="e#25#34#0" expanded="true" />
-                <element signature="e#593#3549#0" />
-                <element signature="e#3592#3899#0" />
-                <element signature="e#3958#5462#0" />
-                <element signature="e#5509#5708#0" />
-                <element signature="e#5768#6606#0" />
-                <element signature="e#6689#8203#0" />
-                <element signature="e#8524#11017#0" />
+                <element signature="e#0#9#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pre_treatment.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pre_treatment.py">
+      <file leaf-file-name="potter_more.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/potter_more.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="457">
-              <caret line="46" column="41" selection-start-line="46" selection-start-column="41" selection-end-line="46" selection-end-column="41" />
+            <state relative-caret-position="748">
+              <caret line="213" column="63" lean-forward="true" selection-start-line="213" selection-start-column="63" selection-end-line="213" selection-end-column="63" />
               <folding>
-                <element signature="e#64#73#0" expanded="true" />
+                <element signature="e#25#34#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -101,6 +108,8 @@
         <option value="$PROJECT_DIR$/half_done/book1.txt" />
         <option value="$PROJECT_DIR$/pre_treatment.py" />
         <option value="$PROJECT_DIR$/human_name_extraction.py" />
+        <option value="$PROJECT_DIR$/potter_more.py" />
+        <option value="$PROJECT_DIR$/relation_predict.py" />
       </list>
     </option>
   </component>
@@ -114,7 +123,7 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-7" />
+    <option name="x" value="953" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
   </component>
@@ -123,6 +132,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -130,11 +140,15 @@
               <item name="NLPproject" type="b2602c69:ProjectViewProjectNode" />
               <item name="NLPproject" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="NLPproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NLPproject" type="462c0819:PsiDirectoryNode" />
+              <item name="csv" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -169,7 +183,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/human_name_extraction.py" />
+      <option name="SCRIPT_NAME" value="D:\QQPCmgr\Desktop\Courses\大三\能量炮\NLPproject\potter_more.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -228,30 +242,29 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="974" height="1047" extended-state="0" />
-    <editor active="true" />
+    <frame x="953" y="0" width="974" height="1047" extended-state="0" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32952926" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.3293348" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.29661942" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.29845816" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4968652" weight="0.3107221" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4968652" weight="0.19256018" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="right" x="0" y="0" width="1920" height="1040" id="SciView" order="4" weight="0.85924935" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32929516" />
+      <window_info anchor="right" x="0" y="0" width="1920" height="1040" id="SciView" order="4" weight="0.85886216" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.5031348" side_tool="true" weight="0.3107221" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.39317182" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.38876653" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -292,7 +305,7 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="57" />
+      <option name="time" value="74" />
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
@@ -350,13 +363,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/half_done/book1.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324742">
-          <caret line="14761" column="23" selection-start-line="14761" selection-start-column="13" selection-end-line="14761" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pre_treatment.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
@@ -364,65 +370,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/human_name_extraction.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3322">
-          <caret line="151" column="29" selection-start-line="151" selection-start-column="29" selection-end-line="151" selection-end-column="29" />
-          <folding>
-            <element signature="e#25#34#0" expanded="true" />
-            <element signature="e#593#3549#0" />
-            <element signature="e#3592#3899#0" />
-            <element signature="e#3958#5462#0" />
-            <element signature="e#5509#5708#0" />
-            <element signature="e#5768#6606#0" />
-            <element signature="e#6689#8203#0" />
-            <element signature="e#8524#11017#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/half_done/book2.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17380">
-          <caret line="790" column="17" selection-start-line="790" selection-start-column="1" selection-end-line="790" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/half_done/raw_input.txt" />
-    <entry file="file://$PROJECT_DIR$/half_done/PotterNameEnglishOutput_save.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret column="1332" lean-forward="true" selection-start-column="1332" selection-end-column="1332" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/half_done/book1.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324742">
-          <caret line="14761" column="23" selection-start-line="14761" selection-start-column="13" selection-end-line="14761" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pre_treatment.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/human_name_extraction.py">
+    <entry file="file://$PROJECT_DIR$/potter_more.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1738">
           <caret line="84" column="45" lean-forward="true" selection-start-line="84" selection-start-column="45" selection-end-line="84" selection-end-column="45" />
           <folding>
             <element signature="e#25#34#0" expanded="true" />
-            <element signature="e#593#3549#0" />
-            <element signature="e#3592#3899#0" />
-            <element signature="e#3958#5462#0" />
-            <element signature="e#5509#5708#0" />
-            <element signature="e#5768#6606#0" />
-            <element signature="e#6689#8203#0" />
-            <element signature="e#8524#11017#0" />
           </folding>
         </state>
       </provider>
@@ -449,19 +402,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/human_name_extraction.py">
+    <entry file="file://$PROJECT_DIR$/potter_more.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2816">
           <caret line="128" column="62" lean-forward="true" selection-start-line="128" selection-start-column="62" selection-end-line="128" selection-end-column="62" />
           <folding>
             <element signature="e#25#34#0" expanded="true" />
-            <element signature="e#593#3549#0" />
-            <element signature="e#3592#3899#0" />
-            <element signature="e#3958#5462#0" />
-            <element signature="e#5509#5708#0" />
-            <element signature="e#5768#6606#0" />
-            <element signature="e#6689#8203#0" />
-            <element signature="e#8524#11017#0" />
           </folding>
         </state>
       </provider>
@@ -487,19 +433,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/human_name_extraction.py">
+    <entry file="file://$PROJECT_DIR$/potter_more.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
           <caret line="11" column="39" lean-forward="true" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
           <folding>
             <element signature="e#25#34#0" expanded="true" />
-            <element signature="e#593#3549#0" />
-            <element signature="e#3592#3899#0" />
-            <element signature="e#3958#5462#0" />
-            <element signature="e#5509#5708#0" />
-            <element signature="e#5768#6606#0" />
-            <element signature="e#6689#8203#0" />
-            <element signature="e#8524#11017#0" />
           </folding>
         </state>
       </provider>
@@ -514,19 +453,12 @@
     <entry file="file://$PROJECT_DIR$/half_done/PotterNameEnglishOutput.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/human_name_extraction.py">
+    <entry file="file://$PROJECT_DIR$/potter_more.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="880">
           <caret line="44" column="31" lean-forward="true" selection-start-line="44" selection-start-column="31" selection-end-line="44" selection-end-column="31" />
           <folding>
             <element signature="e#25#34#0" expanded="true" />
-            <element signature="e#593#3549#0" />
-            <element signature="e#3592#3899#0" />
-            <element signature="e#3958#5462#0" />
-            <element signature="e#5509#5708#0" />
-            <element signature="e#5768#6606#0" />
-            <element signature="e#6689#8203#0" />
-            <element signature="e#8524#11017#0" />
           </folding>
         </state>
       </provider>
@@ -541,19 +473,12 @@
     <entry file="file://$PROJECT_DIR$/half_done/PotterNameEnglishOutput.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/human_name_extraction.py">
+    <entry file="file://$PROJECT_DIR$/potter_more.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="528">
           <caret line="28" column="27" lean-forward="true" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="27" />
           <folding>
             <element signature="e#25#34#0" expanded="true" />
-            <element signature="e#593#3549#0" />
-            <element signature="e#3592#3899#0" />
-            <element signature="e#3958#5462#0" />
-            <element signature="e#5509#5708#0" />
-            <element signature="e#5768#6606#0" />
-            <element signature="e#6689#8203#0" />
-            <element signature="e#8524#11017#0" />
           </folding>
         </state>
       </provider>
@@ -567,19 +492,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/PotterNameEnglishOutput.txt" />
     <entry file="file://$PROJECT_DIR$/PotterNameEnglish.txt" />
-    <entry file="file://$PROJECT_DIR$/human_name_extraction.py">
+    <entry file="file://$PROJECT_DIR$/potter_more.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1100">
           <caret line="54" column="19" selection-start-line="54" selection-start-column="19" selection-end-line="54" selection-end-column="19" />
           <folding>
             <element signature="e#25#34#0" expanded="true" />
-            <element signature="e#593#3549#0" />
-            <element signature="e#3592#3899#0" />
-            <element signature="e#3958#5462#0" />
-            <element signature="e#5509#5708#0" />
-            <element signature="e#5768#6606#0" />
-            <element signature="e#6689#8203#0" />
-            <element signature="e#8524#11017#0" />
           </folding>
         </state>
       </provider>
@@ -593,19 +511,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/PotterNameEnglish.txt" />
     <entry file="file://$PROJECT_DIR$/PotterNameEnglishOutput.txt" />
-    <entry file="file://$PROJECT_DIR$/human_name_extraction.py">
+    <entry file="file://$PROJECT_DIR$/potter_more.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1188">
           <caret line="54" column="19" lean-forward="true" selection-start-line="54" selection-start-column="19" selection-end-line="54" selection-end-column="19" />
           <folding>
             <element signature="e#25#34#0" expanded="true" />
-            <element signature="e#593#3549#0" />
-            <element signature="e#3592#3899#0" />
-            <element signature="e#3958#5462#0" />
-            <element signature="e#5509#5708#0" />
-            <element signature="e#5768#6606#0" />
-            <element signature="e#6689#8203#0" />
-            <element signature="e#8524#11017#0" />
           </folding>
         </state>
       </provider>
@@ -663,16 +574,9 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/half_done/book1_sent_name_extract.txt" />
-    <entry file="file://D:/ANACONDA/envs/nlp/Lib/codecs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="308" selection-start-line="308" selection-end-line="308" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pre_treatment.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="457">
+        <state relative-caret-position="990">
           <caret line="46" column="41" selection-start-line="46" selection-start-column="41" selection-end-line="46" selection-end-column="41" />
           <folding>
             <element signature="e#64#73#0" expanded="true" />
@@ -682,36 +586,65 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../../计算机网络 曹袖/NetProject/ChatroomWithPython/client.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2051">
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
+        <state relative-caret-position="-2051" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../../计算机网络 曹袖/NetProject/ChatroomWithPython/client_gui.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="157">
           <caret line="89" column="14" selection-start-line="89" selection-start-column="8" selection-end-line="89" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/csv/book1_sent_edge.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/csv/book1_sent_node.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/csv/input_sent_node.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/csv/input_sent_edge.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="15" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/ANACONDA/envs/nlp/Lib/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="308" selection-start-line="308" selection-end-line="308" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/csv/input_sent_relation_label.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://D:/ANACONDA/envs/nlp/Lib/re.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="703">
+          <caret line="326" selection-start-line="326" selection-end-line="326" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/potter_more.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="213" column="63" lean-forward="true" selection-start-line="213" selection-start-column="63" selection-end-line="213" selection-end-column="63" />
           <folding>
-            <element signature="e#0#13#0" expanded="true" />
+            <element signature="e#25#34#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/human_name_extraction.py">
+    <entry file="file://$PROJECT_DIR$/relation_predict.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="638">
-          <caret line="29" column="25" lean-forward="true" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
+        <state relative-caret-position="616">
+          <caret line="60" column="20" lean-forward="true" selection-start-line="60" selection-start-column="20" selection-end-line="60" selection-end-column="20" />
           <folding>
-            <element signature="e#25#34#0" expanded="true" />
-            <element signature="e#593#3549#0" />
-            <element signature="e#3592#3899#0" />
-            <element signature="e#3958#5462#0" />
-            <element signature="e#5509#5708#0" />
-            <element signature="e#5768#6606#0" />
-            <element signature="e#6689#8203#0" />
-            <element signature="e#8524#11017#0" />
+            <element signature="e#0#9#0" expanded="true" />
           </folding>
         </state>
       </provider>

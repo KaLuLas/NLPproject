@@ -1,0 +1,272 @@
+source,target,weight
+Harry,Ron,631
+Harry,Hermione,593
+Harry,Lupin,225
+Harry,Black,179
+Harry,Hagrid,171
+Harry,Snape,151
+Harry,Malfoy,135
+Harry,Dumbledore,103
+Harry,McGonagall,80
+Harry,Gryffindor,109
+Harry,Fudge,84
+Harry,Neville,59
+Harry,Trelawney,53
+Harry,Pettigrew,54
+Harry,Vernon,76
+Harry,Fred,59
+Harry,Wood,67
+Harry,Sirius,55
+Harry,Percy,53
+Harry,Marge,44
+Harry,George,43
+Harry,Stan,39
+Harry,Slytherin,35
+Harry,Potter,43
+Harry,Mr Weasley,50
+Harry,Sirius Black,42
+Harry,Crabbe,25
+Harry,Goyle,26
+Harry,Peter,14
+Ron,Hermione,472
+Ron,Lupin,85
+Ron,Black,83
+Ron,Hagrid,78
+Ron,Snape,57
+Ron,Malfoy,75
+Ron,Dumbledore,36
+Ron,McGonagall,43
+Ron,Gryffindor,33
+Ron,Fudge,14
+Ron,Neville,28
+Ron,Trelawney,29
+Ron,Pettigrew,36
+Ron,Vernon,12
+Ron,Fred,23
+Ron,Wood,13
+Ron,Sirius,14
+Ron,Percy,39
+Ron,Marge,1
+Ron,George,20
+Ron,Slytherin,10
+Ron,Potter,5
+Ron,Mr Weasley,15
+Ron,Sirius Black,13
+Ron,Crabbe,12
+Ron,Goyle,15
+Ron,Peter,7
+Hermione,Lupin,78
+Hermione,Black,66
+Hermione,Hagrid,97
+Hermione,Snape,58
+Hermione,Malfoy,31
+Hermione,Dumbledore,52
+Hermione,McGonagall,50
+Hermione,Gryffindor,29
+Hermione,Fudge,17
+Hermione,Neville,22
+Hermione,Trelawney,20
+Hermione,Pettigrew,26
+Hermione,Vernon,3
+Hermione,Fred,20
+Hermione,Wood,4
+Hermione,Sirius,29
+Hermione,Percy,19
+Hermione,Marge,1
+Hermione,George,11
+Hermione,Slytherin,6
+Hermione,Potter,8
+Hermione,Mr Weasley,7
+Hermione,Sirius Black,7
+Hermione,Crabbe,7
+Hermione,Goyle,7
+Hermione,Peter,6
+Lupin,Black,67
+Lupin,Hagrid,5
+Lupin,Snape,83
+Lupin,Malfoy,11
+Lupin,Dumbledore,18
+Lupin,McGonagall,14
+Lupin,Gryffindor,5
+Lupin,Fudge,1
+Lupin,Neville,33
+Lupin,Trelawney,3
+Lupin,Pettigrew,43
+Lupin,Fred,1
+Lupin,Sirius,31
+Lupin,Percy,1
+Lupin,George,1
+Lupin,Slytherin,2
+Lupin,Potter,8
+Lupin,Sirius Black,6
+Lupin,Crabbe,4
+Lupin,Goyle,4
+Lupin,Peter,20
+Black,Hagrid,12
+Black,Snape,41
+Black,Malfoy,6
+Black,Dumbledore,22
+Black,McGonagall,14
+Black,Fudge,27
+Black,Neville,3
+Black,Pettigrew,51
+Black,Vernon,2
+Black,Fred,1
+Black,Wood,2
+Black,Sirius,17
+Black,Percy,3
+Black,George,1
+Black,Stan,8
+Black,Potter,10
+Black,Mr Weasley,4
+Black,Sirius Black,8
+Black,Peter,24
+Hagrid,Snape,6
+Hagrid,Malfoy,28
+Hagrid,Dumbledore,21
+Hagrid,McGonagall,6
+Hagrid,Gryffindor,3
+Hagrid,Fudge,6
+Hagrid,Neville,1
+Hagrid,Trelawney,4
+Hagrid,Pettigrew,3
+Hagrid,Wood,1
+Hagrid,Percy,3
+Hagrid,Potter,3
+Hagrid,Mr Weasley,2
+Hagrid,Sirius Black,3
+Hagrid,Crabbe,7
+Hagrid,Goyle,7
+Snape,Malfoy,27
+Snape,Dumbledore,42
+Snape,McGonagall,6
+Snape,Gryffindor,15
+Snape,Fudge,15
+Snape,Neville,30
+Snape,Trelawney,6
+Snape,Pettigrew,9
+Snape,Fred,1
+Snape,Wood,1
+Snape,Sirius,15
+Snape,Percy,7
+Snape,George,1
+Snape,Slytherin,4
+Snape,Potter,18
+Snape,Sirius Black,5
+Malfoy,Dumbledore,4
+Malfoy,McGonagall,2
+Malfoy,Gryffindor,30
+Malfoy,Neville,5
+Malfoy,Trelawney,3
+Malfoy,Pettigrew,1
+Malfoy,Fred,6
+Malfoy,Wood,4
+Malfoy,Sirius,1
+Malfoy,Percy,1
+Malfoy,George,4
+Malfoy,Slytherin,28
+Malfoy,Potter,5
+Malfoy,Crabbe,40
+Malfoy,Goyle,43
+Dumbledore,McGonagall,15
+Dumbledore,Gryffindor,3
+Dumbledore,Fudge,20
+Dumbledore,Trelawney,6
+Dumbledore,Pettigrew,11
+Dumbledore,Fred,3
+Dumbledore,Wood,1
+Dumbledore,Sirius,12
+Dumbledore,Percy,11
+Dumbledore,George,2
+Dumbledore,Slytherin,2
+Dumbledore,Potter,4
+Dumbledore,Mr Weasley,5
+Dumbledore,Sirius Black,7
+McGonagall,Gryffindor,22
+McGonagall,Fudge,6
+McGonagall,Neville,4
+McGonagall,Trelawney,11
+McGonagall,Pettigrew,2
+McGonagall,Vernon,2
+McGonagall,Wood,9
+McGonagall,Sirius,4
+McGonagall,Slytherin,4
+McGonagall,Potter,14
+McGonagall,Mr Weasley,2
+McGonagall,Sirius Black,3
+Gryffindor,Neville,5
+Gryffindor,Trelawney,2
+Gryffindor,Pettigrew,2
+Gryffindor,Fred,9
+Gryffindor,Wood,25
+Gryffindor,Sirius,2
+Gryffindor,Percy,3
+Gryffindor,George,2
+Gryffindor,Slytherin,20
+Gryffindor,Potter,3
+Gryffindor,Sirius Black,1
+Gryffindor,Crabbe,3
+Gryffindor,Goyle,6
+Gryffindor,Peter,2
+Fudge,Pettigrew,3
+Fudge,Fred,1
+Fudge,Sirius,5
+Fudge,George,1
+Fudge,Stan,3
+Fudge,Potter,3
+Fudge,Mr Weasley,1
+Fudge,Sirius Black,3
+Neville,Trelawney,6
+Neville,Stan,3
+Neville,Slytherin,3
+Neville,Potter,1
+Neville,Sirius Black,4
+Neville,Crabbe,2
+Neville,Goyle,2
+Trelawney,Pettigrew,2
+Trelawney,Sirius,1
+Trelawney,Percy,1
+Trelawney,Potter,4
+Pettigrew,Sirius,18
+Pettigrew,Sirius Black,1
+Pettigrew,Peter,14
+Vernon,Fred,1
+Vernon,Sirius,1
+Vernon,Marge,28
+Vernon,George,1
+Vernon,Potter,2
+Vernon,Mr Weasley,1
+Fred,Wood,6
+Fred,Sirius,2
+Fred,Percy,13
+Fred,George,66
+Fred,Slytherin,6
+Fred,Mr Weasley,4
+Fred,Sirius Black,1
+Wood,Percy,2
+Wood,George,5
+Wood,Slytherin,9
+Sirius,Percy,1
+Sirius,George,2
+Sirius,Peter,16
+Percy,George,11
+Percy,Slytherin,1
+Percy,Mr Weasley,4
+Percy,Sirius Black,2
+Percy,Crabbe,1
+Percy,Goyle,1
+Marge,Stan,1
+Marge,Potter,2
+Marge,Mr Weasley,2
+George,Slytherin,5
+George,Mr Weasley,4
+George,Sirius Black,1
+George,Goyle,1
+Stan,Sirius Black,1
+Slytherin,Sirius Black,2
+Slytherin,Crabbe,5
+Slytherin,Goyle,5
+Potter,Mr Weasley,1
+Potter,Sirius Black,3
+Mr Weasley,Sirius Black,5
+Crabbe,Goyle,63
