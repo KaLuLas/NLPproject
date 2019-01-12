@@ -4,81 +4,79 @@
 2018下学期自然语言处理期末大作业：
 基于哈利波特英文原文进行词云，联系图生成，并进行关系特征学习
 
+</br>
+
+JK罗琳在其著作《哈利波特》中构建了一个奇幻而宏大的世界观，其中充斥着形形色色各有不同魅力的人物形象。这些人物又组成家庭，家族，部门，学院等等组织，彼此之间存在着复杂的人际关系。我们试图通过分析作者的英文原著，提取出人物在文本中的信息：包括观察人物在文本中的分布位置，在全文中的提及频数，名字包含的姓氏部分，与其他人物姓名同时出现的频率等等一系列参数来得到我们想要的信息，并以形象直观的文本、图标形式展现出来。
+
 ![WordCloud](https://github.com/KaLuLas/NLPproject/blob/master/word_cloud.png?raw=true)
 
 ![RelationGraph](https://github.com/KaLuLas/NLPproject/blob/master/relation_graph.png?raw=true)
 
-
+</br>
 
 ### Contents
 
-**./half_done：**
+**./corpus: 存放原著语料**
 
-filename.txt 未处理文本材料
+​         /book(n).txt 对应第n册的英文原著
 
-filename_sent.txt 几何并处理，分句后的文本材料
+​         /book(n)_sent.txt 对应第n册英文原著分句后的结构
+
+​         /input.txt & input_sent.txt 同上，为7册原文的整合
+
+​         /PotterNameEnglish.txt 哈利波特出场人物介绍
+
+​         /PotterNameEnglishOutput.txt 提取出的人物姓名
+
+​         /PotterNameEnglishOutput_save.txt 提取并修改后的姓名语料
+
+**./csv: 存放用于形成人物关系图的节点/边数据，以及用于训练分类器的标签关系对，分类器得分**
+
+​         /book(n)_sent_node.csv 节点数据，权重为出现次数影响节点大小
+
+​         /book(n)_sent_edge.csv 边数据，权重为两个人物出现在文章一定区间的次数，影响边的粗细
+
+​         /…relation_label.csv 关系对与标注的关系，关系对来自input_sent.txt中
+
+​         /…scores.csv 分类器得分根据输入特征集大小变化的记录（关系从少到多
+
+**./errors: 分类器的评分使用交叉验证法，文件夹下记录每一次验证时判断错的记录**
+
+​         /…iter(n).csv 交叉验证中第n次判断错的人物关系
+
+​         /…join.csv 以上所有记录的并集
+
+**./save: 构建姓名字典，人物关系字典，训练器用的特征集十分耗时，**
+
+**目录下的这部分的pkl文件用于这些字典结构的快速重建** 
+
+​         /…name_dict.pkl 保存与读取name_dict数据结构
+
+​         /…relation_record.pkl 保存与读取 relation_record 数据结构
+
+**others**
+
+./pre_treatment.py 原文语料和姓名语料的预处理
+
+./potter_more.py 主程序，设计了可选功能的命令行ui
+
+./relation_predict.py 训练关系分类器并对分类效果进行评价
+
+./name_extract_logic.png 在文本中匹配人名的逻辑图
+
+./word_cloud.png 根据人名在文本中出现次数生成的人名词云
+
+./relation_graph.png 利用gephi软件与csv文件生成的人物关系网络图
+
+./PerformanceWithVaryingSize 分类器表现根据输入特征集大小变化的图表
 
 </br>
 
-**./csv:**
+**执行代码文件potter_more.py所需环境:**
 
-用于生成关系图
+​         python3.6及以上
 
-node.csv 人物与出场权重
-
-edge.csv 人物关系与权重
-
-</br>
-
-**./pre_treatment.py:** 
-
-text_pre_treat():
-
-文本材料预处理，删去空行，标题，页注，并去除空行，进行分句
-
-输入为filename.txt，输出为filename_sent.txt
-
-name_pre_treat():
-
-人名素材处理 （HarryNameEnglish.txt -> HarryNameEnglishOuptu.txt）
-
-</br>
-
-**./human_name_extraction.py:** 
-
-**name_dict**结构：{姓名，出场行数列表[]}
-
-**family_name_dict**结构：{姓，[家族出场次数，[各个成员信息(姓名，出场行数列表)]]}
-
-**appearance_dict**结构：{行数 / 行数±radius 区间段落，出现的角色}
-
-**threshold:** [需要调参] 出现次数小于等于此值的姓名信息键值对将被视为无效
-
-**appear_dict_radius:**[需要调参] 出场字典的投影范围大小
-
-extract_name():
-
-人名提取，并记录初次登场行数
-
-family_name_extract():
-
-根据提取到的人名得到所有姓氏
-
-build_family_tree():
-
-根据前两个函数得到的结果将提取到的姓名整合到家族字典树中
-
-build_appearance_dict():
-
-先创建 行数 -> 出现角色 的映射 appearance_dict
-
-再把 当前行数±radius（闭区间）的出现角色映射到当前行数上来形成 appearance_proj_dict
-
-
-
-word_cloud.png 在七本书内容基础上生成的词云
-
-relation_graph.png 在七本书基础上生成的人物联系图（不包含确切关系
+​         拓展库安装：nltk / numpy / matplotlib / tqdm（进度条）/ wrodcloud（生成词云）/
 
 </br>
 
@@ -109,6 +107,10 @@ relation_graph.png 在七本书基础上生成的人物联系图（不包含确�
 23. 用pickle保存一下feature_set，已经确认是按顺序保存的了 **finished**
 24. [最后做]把关系不是特别大的联系排除掉，通过特征集排序就不用每次都构建特征集，画个图表试试 **finished**
 
+</br>
+
+**随便乱记的分类器成长史**
+
 | 特征                    | 映射区间大小 | 备注                                                  | 符号                                                   | 人名                                                   | 停止词                                                  | 准确率% | 交叉验证 |
 | ----------------------- | ------------ | ------------------------------------------------------------ | ----------------- | ---- | ----------------------- | ----------------------- | ----------------------- |
 | related_word_freq | ±4           |                                                  | 有                                                | 有                                                | 有                                                | 35.3              |               |
@@ -135,7 +137,7 @@ relation_graph.png 在七本书基础上生成的人物联系图（不包含确�
 |  | ±1 |  | 无 | 有 | 有 | 70 |  |
 | 交叉验证之后的数据我放到excel里面了 |              |                              |      |      |        |             |          |
 
- 
+ </br>
 
 ---------人物关系部分--------
 
@@ -159,9 +161,21 @@ PART2 根据关系找出人名实体对，再去找包含这个人名对的所�
 
 关系可视化？http://www.cnblogs.com/Sinte-Beuve/p/7679392.html
 
-
+</br>
 
 ### History
+
+**2019/01/12【基本结项】**
+
+调参工作和找特征都完成
+
+也找到了分类器表现最好的特征集大小
+
+AC 最高能达到88％
+
+接下来完成论文就行啦
+
+</br>
 
 **2019/01/11**
 
@@ -171,7 +185,7 @@ PART2 根据关系找出人名实体对，再去找包含这个人名对的所�
 
 目标AC 65-70％
 
-
+</br>
 
 **2019/01/10**
 
