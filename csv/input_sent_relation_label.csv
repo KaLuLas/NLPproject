@@ -61,7 +61,7 @@ Ron,McGonagall,pos
 Hermione,Harry Potter,pos
 Snape,Malfoy,pos
 Dumbledore,McGonagall,pos
-Dumbledore,Fudge,neg
+Dumbledore,Fudge,pos
 Hermione,Mrs Weasley,pos
 Ron,Percy,neg
 Vernon,Dudley,pos
@@ -88,7 +88,7 @@ George,Ginny,pos
 Ron,Slytherin,neg
 Snape,McGonagall,neg
 Gryffindor,Slytherin,neg
-Dumbledore,Malfoy,neg
+Dumbledore,Malfoy,pos
 Harry Potter,Dobby,pos
 McGonagall,Gryffindor,pos
 Ginny,Neville,pos
@@ -116,9 +116,9 @@ Hermione,Black,pos
 George,Mr Weasley,pos
 Ron,Moody,pos
 Malfoy,Neville,neg
-Sirius,Mrs Weasley,neg
-Hagrid,Snape,neg
-Dumbledore,Umbridge,neg
+Sirius,Mrs Weasley,pos
+Hagrid,Snape,pos
+Dumbledore,Umbridge,pos
 Lupin,Black,pos
 McGonagall,Umbridge,neg
 Snape,Harry Potter,neg
@@ -162,18 +162,18 @@ Dumbledore,George,pos
 Hagrid,Voldemort,neg
 Hagrid,Sirius,pos
 Hermione,Fudge,neg
-Dumbledore,Slytherin,neg
+Dumbledore,Slytherin,pos
 Hagrid,Gryffindor,pos
 Snape,Slytherin,pos
 Malfoy,Slughorn,pos
 Sirius,Fred,pos
 George,Umbridge,neg
-Ginny,Percy,neg
+Ginny,Percy,pos
 Malfoy,Fred,neg
 George,Gryffindor,pos
 Neville,Gryffindor,pos
 Ron,Fudge,neg
-Snape,Slughorn,neg
+Snape,Slughorn,pos
 Voldemort,Lupin,neg
 Malfoy,George,neg
 Dumbledore,Dobby,pos
@@ -184,7 +184,7 @@ Potter,Dobby,pos
 Voldemort,Neville,neg
 Sirius,Moody,pos
 Ginny,Gryffindor,pos
-Mr Weasley,Vernon,neg
+Mr Weasley,Vernon,pos
 Fudge,Black,neg
 Voldemort,Potter,neg
 Malfoy,Ginny,neg
@@ -214,7 +214,7 @@ Harry Potter,Mrs Weasley,pos
 Hagrid,Ginny,pos
 Hagrid,Mrs Weasley,pos
 Hagrid,Potter,pos
-McGonagall,Slytherin,neg
+McGonagall,Slytherin,pos
 Umbridge,Gryffindor,neg
 Lupin,Mr Weasley,pos
 McGonagall,Slughorn,pos
@@ -222,7 +222,7 @@ Neville,Potter,pos
 Neville,Moody,pos
 Lupin,McGonagall,pos
 Gryffindor,Potter,pos
-Snape,Fudge,pos
+Snape,Fudge,neg
 Ron,Dudley,neg
 Hagrid,George,pos
 Hagrid,Mr Weasley,pos
@@ -239,7 +239,7 @@ Harry Potter,McGonagall,pos
 Harry Potter,Gryffindor,pos
 Harry Potter,Fudge,neg
 George,Slytherin,neg
-McGonagall,Moody,neg
+McGonagall,Moody,pos
 Neville,Umbridge,neg
 Voldemort,Black,neg
 Sirius,Neville,neg
@@ -247,7 +247,7 @@ Fred,Moody,pos
 Fred,Slytherin,neg
 Harry Potter,Dudley,neg
 Mr Weasley,Dudley,neg
-Mr Weasley,Fudge,neg
+Mr Weasley,Fudge,pos
 Voldemort,Mr Weasley,neg
 Malfoy,Lupin,neg
 Harry Potter,Neville,pos
@@ -257,7 +257,7 @@ Fudge,Percy,pos
 Dumbledore,Dudley,pos
 Hagrid,Fudge,neg
 Malfoy,Mr Weasley,neg
-Harry Potter,Percy,neg
+Harry Potter,Percy,pos
 McGonagall,Mr Weasley,pos
 Hagrid,Vernon,neg
 Snape,Mr Weasley,neg
@@ -285,7 +285,7 @@ Mrs Weasley,Moody,pos
 Hagrid,Black,pos
 Potter,Vernon,neg
 Hermione,Dudley,neg
-Hagrid,Percy,neg
+Hagrid,Percy,pos
 Voldemort,Moody,neg
 Malfoy,Fudge,neg
 Lupin,Gryffindor,pos
@@ -310,7 +310,7 @@ Voldemort,Umbridge,neg
 Voldemort,Vernon,neg
 Malfoy,Mrs Weasley,neg
 Malfoy,Percy,neg
-Fred,Slughorn,pos
+Fred,Slughorn,neg
 Lupin,Percy,pos
 George,Fudge,neg
 Mrs Weasley,Vernon,neg
@@ -319,7 +319,7 @@ Mr Weasley,Moody,pos
 Mr Weasley,Black,pos
 Potter,Fudge,neg
 Vernon,Dobby,neg
-Snape,Mrs Weasley,neg
+Snape,Mrs Weasley,pos
 Voldemort,Slytherin,pos
 Sirius,Dobby,pos
 Mr Weasley,Umbridge,neg
@@ -333,7 +333,7 @@ Malfoy,Black,neg
 Fred,Potter,pos
 McGonagall,Percy,pos
 Mrs Weasley,Dobby,pos
-Mrs Weasley,Black,neg
+Mrs Weasley,Black,pos
 Potter,Slytherin,neg
 Voldemort,Dobby,neg
 George,Slughorn,neg
@@ -354,7 +354,7 @@ Mrs Weasley,Gryffindor,pos
 Gryffindor,Black,neg
 Vernon,Moody,neg
 Moody,Fudge,neg
-Snape,Dobby,neg
+Snape,Dobby,pos
 Voldemort,Percy,neg
 George,Dobby,pos
 McGonagall,Vernon,neg
@@ -367,9 +367,9 @@ Snape,Dudley,neg
 Sirius,Slytherin,neg
 Lupin,Vernon,neg
 Lupin,Slytherin,neg
-Harry Potter,Black,pos
+Harry Potter,Black,neg
 George,Black,pos
-Ginny,Moody,neg
+Ginny,Moody,pos
 Ginny,Fudge,neg
 Ginny,Dobby,pos
 Neville,Mrs Weasley,pos

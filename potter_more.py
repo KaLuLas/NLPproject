@@ -4,6 +4,7 @@ import os
 import re
 import nltk
 import tqdm
+import pylab
 import pickle
 import numpy as np
 import itertools
@@ -15,17 +16,18 @@ from nltk.corpus import names
 import pre_treatment
 import relation_predict
 
-path = ".\half_done\\"
+path = ".\corpus\\"
 save_csv_path = ".\csv\\"
 save_pkl_path = ".\save\\"
 file_name_prefix = ""
 file_name = ""
 
-appear_dict_radius = 0
+appear_dict_radius = 5
 threshold = 0
 file_line_count = 0
 # relation extraction related
 figure_selected = 30
+best_length = 70
 pd.set_option('max_rows', 20)
 
 name_dict = {}
@@ -36,13 +38,14 @@ relation_record_dict = {}
 freq_dict = {}
 relation_score_dict = {}
 build_relation_record_dict = False
+generate_graph = True
 
 
 def extract_name(file_name):
     print("\nBuilding Name Dictionary from \"", file_name[len(path):], "\"...")
     name_dict = {}
     list_of_names = []
-    extra_name = open(".\\half_done\\PotterNameEnglishOutput_save.txt", "r+", encoding="utf-8")
+    extra_name = open(path + "PotterNameEnglishOutput_save.txt", "r+", encoding="utf-8")
     list_of_male_names = names.words('male.txt')
     list_of_female_names = names.words('female.txt')
     list_of_names.extend(extra_name.read().split(" "))
@@ -291,7 +294,32 @@ def display(input_dict, display_type='first_appear'):
                 file.write(name[0] + ',' + name[1] + ',' + str(freq) + '\n')
     elif display_type == 'train_relation_classifier':
         if build_relation_record_dict:
-            relation_predict.train(relation_record_dict, file_name_prefix, name_dict.keys())
+            if generate_graph:
+                lengths = []
+                scores = []
+                for length in range(20, len(relation_record_dict), 10):
+                    lengths.append(length)
+                    score = relation_predict.train(relation_record_dict, file_name_prefix, name_dict.keys(),
+                                                   length, True)
+                    scores.append(score)
+                pylab.plot(lengths, scores, '-bo')
+                pylab.title('Related Word Freq Classifier Performance with Varying Relation Set Size')
+                pylab.xlabel('Relation Set Size')
+                pylab.ylabel('Accuracy(Cross Validation)')
+                pylab.show()
+                with open(save_csv_path + file_name[0:file_name.find(".")] + '_scores.csv', 'w',
+                          encoding='utf-8') as file:
+                    file.write('feature set size,score\n')
+                    for i in range(len(lengths)):
+                        file.write(str(lengths[i]) + ',' + str(scores[i]) + '\n')
+                    file.close()
+            else:
+                res = input('Wanna load from a existed feature set which save you for about 1 min?[y/n]')
+                if res == 'y':
+                    res = True
+                else:
+                    res = False
+                relation_predict.train(relation_record_dict, file_name_prefix, name_dict.keys(), best_length, res)
         else:
             print("[WARNING] Need to build relation record dict first")
 

@@ -1,0 +1,404 @@
+source,target,label
+Harry,Ron,pos
+Harry,Hermione,pos
+Ron,Hermione,pos
+Harry,Dumbledore,pos
+Harry,Hagrid,pos
+Harry,Snape,neg
+Harry,Malfoy,neg
+Harry,Sirius,pos
+Harry,Voldemort,neg
+Fred,George,pos
+Harry,Fred,pos
+Harry,Ginny,pos
+Harry,Harry Potter,pos
+Harry,George,pos
+Harry,Neville,pos
+Harry,Lupin,pos
+Harry,Gryffindor,pos
+Hermione,Hagrid,pos
+Harry,McGonagall,pos
+Ron,Hagrid,pos
+Harry,Mrs Weasley,pos
+Ron,Dumbledore,pos
+Harry,Mr Weasley,pos
+Harry,Vernon,neg
+Harry,Potter,pos
+Hermione,Dumbledore,pos
+Ron,Ginny,pos
+Harry,Umbridge,neg
+Ron,Fred,pos
+Ron,Malfoy,neg
+Harry,Slughorn,pos
+Dumbledore,Snape,pos
+Ron,George,pos
+Ron,Snape,neg
+Harry,Dudley,neg
+Hermione,Ginny,pos
+Hermione,Snape,neg
+Harry,Moody,pos
+Harry,Dobby,pos
+Dumbledore,Voldemort,neg
+Ron,Gryffindor,pos
+Hermione,Malfoy,neg
+Harry,Slytherin,neg
+Harry,Percy,pos
+Hermione,Fred,pos
+Ron,Neville,pos
+Hermione,Sirius,pos
+Harry,Fudge,neg
+Ron,Mrs Weasley,pos
+Hermione,Neville,pos
+Dumbledore,Hagrid,pos
+Ron,Sirius,pos
+Hermione,George,pos
+Hermione,Gryffindor,pos
+Dumbledore,Sirius,pos
+Harry,Black,pos
+Hermione,Umbridge,neg
+Ron,Harry Potter,pos
+Ron,McGonagall,pos
+Hermione,Harry Potter,pos
+Snape,Malfoy,pos
+Dumbledore,McGonagall,pos
+Dumbledore,Fudge,neg
+Hermione,Mrs Weasley,pos
+Ron,Percy,neg
+Vernon,Dudley,pos
+Ron,Lupin,pos
+Hermione,Voldemort,neg
+Hermione,Lupin,pos
+Snape,Potter,neg
+Hermione,McGonagall,pos
+Snape,Sirius,neg
+Dumbledore,Harry Potter,pos
+Sirius,Lupin,pos
+Ron,Voldemort,neg
+Fred,Mrs Weasley,pos
+Mrs Weasley,Mr Weasley,pos
+George,Mrs Weasley,pos
+Snape,Voldemort,pos
+Fred,Ginny,pos
+Ginny,Mrs Weasley,pos
+Ron,Umbridge,neg
+Snape,Lupin,neg
+Ron,Mr Weasley,pos
+Hagrid,Malfoy,neg
+George,Ginny,pos
+Ron,Slytherin,neg
+Snape,McGonagall,neg
+Gryffindor,Slytherin,neg
+Dumbledore,Malfoy,neg
+Harry Potter,Dobby,pos
+McGonagall,Gryffindor,pos
+Ginny,Neville,pos
+Voldemort,Sirius,neg
+Ron,Slughorn,pos
+Hermione,Slughorn,pos
+Dumbledore,Potter,pos
+Ron,Black,pos
+McGonagall,Potter,pos
+Dumbledore,Moody,pos
+Hermione,Mr Weasley,pos
+Dumbledore,Slughorn,pos
+Ron,Potter,pos
+Fred,Percy,neg
+Hermione,Potter,pos
+Hermione,Percy,pos
+Malfoy,Potter,neg
+Hermione,Moody,pos
+Malfoy,Slytherin,pos
+Hagrid,Harry Potter,pos
+Snape,Neville,neg
+Snape,Gryffindor,neg
+Fred,Mr Weasley,pos
+Hermione,Black,pos
+George,Mr Weasley,pos
+Ron,Moody,pos
+Malfoy,Neville,neg
+Sirius,Mrs Weasley,neg
+Hagrid,Snape,neg
+Dumbledore,Umbridge,neg
+Lupin,Black,pos
+McGonagall,Umbridge,neg
+Snape,Harry Potter,neg
+Voldemort,Harry Potter,neg
+Harry Potter,Mr Weasley,pos
+Hagrid,McGonagall,pos
+Hagrid,Umbridge,neg
+Snape,Moody,neg
+Malfoy,Gryffindor,neg
+Dumbledore,Lupin,pos
+Fred,Harry Potter,pos
+Dumbledore,Mr Weasley,pos
+Dumbledore,Gryffindor,pos
+Ron,Dobby,pos
+Hermione,Dobby,pos
+Dumbledore,Ginny,pos
+Hermione,Slytherin,neg
+Harry Potter,George,pos
+George,Percy,neg
+Hagrid,Slughorn,pos
+Fred,Gryffindor,pos
+Lupin,Mrs Weasley,pos
+Mr Weasley,Percy,pos
+Potter,Moody,pos
+Dumbledore,Neville,pos
+Snape,Black,neg
+Harry Potter,Moody,pos
+Dumbledore,Mrs Weasley,pos
+Mrs Weasley,Percy,pos
+Ginny,Mr Weasley,pos
+Dumbledore,Fred,pos
+Sirius,Harry Potter,pos
+Lupin,Neville,pos
+Harry Potter,Potter,pos
+Dumbledore,Percy,pos
+Sirius,Black,pos
+Snape,Umbridge,neg
+Sirius,George,pos
+Sirius,Ginny,pos
+Dumbledore,George,pos
+Hagrid,Voldemort,neg
+Hagrid,Sirius,pos
+Hermione,Fudge,neg
+Dumbledore,Slytherin,neg
+Hagrid,Gryffindor,pos
+Snape,Slytherin,pos
+Malfoy,Slughorn,pos
+Sirius,Fred,pos
+George,Umbridge,neg
+Ginny,Percy,neg
+Malfoy,Fred,neg
+George,Gryffindor,pos
+Neville,Gryffindor,pos
+Ron,Fudge,neg
+Snape,Slughorn,neg
+Voldemort,Lupin,neg
+Malfoy,George,neg
+Dumbledore,Dobby,pos
+Hagrid,Neville,pos
+Sirius,Mr Weasley,pos
+Sirius,Umbridge,neg
+Potter,Dobby,pos
+Voldemort,Neville,neg
+Sirius,Moody,pos
+Ginny,Gryffindor,pos
+Mr Weasley,Vernon,neg
+Fudge,Black,neg
+Voldemort,Potter,neg
+Malfoy,Ginny,neg
+Lupin,George,pos
+Lupin,Moody,pos
+Hagrid,Fred,pos
+Fred,Umbridge,neg
+Harry Potter,Vernon,neg
+Malfoy,McGonagall,neg
+Umbridge,Potter,neg
+Dumbledore,Vernon,neg
+Hagrid,Moody,pos
+McGonagall,Ginny,pos
+Ginny,Slughorn,pos
+Umbridge,Fudge,pos
+Hagrid,Lupin,pos
+Fred,Lupin,pos
+Lupin,Ginny,pos
+McGonagall,Neville,neg
+Snape,Ginny,neg
+Voldemort,Ginny,neg
+Ginny,Umbridge,neg
+Ron,Vernon,neg
+Dumbledore,Black,pos
+Voldemort,Slughorn,pos
+Harry Potter,Mrs Weasley,pos
+Hagrid,Ginny,pos
+Hagrid,Mrs Weasley,pos
+Hagrid,Potter,pos
+McGonagall,Slytherin,neg
+Umbridge,Gryffindor,neg
+Lupin,Mr Weasley,pos
+McGonagall,Slughorn,pos
+Neville,Potter,pos
+Neville,Moody,pos
+Lupin,McGonagall,pos
+Gryffindor,Potter,pos
+Snape,Fudge,pos
+Ron,Dudley,neg
+Hagrid,George,pos
+Hagrid,Mr Weasley,pos
+Voldemort,McGonagall,neg
+Malfoy,Harry Potter,neg
+Sirius,Potter,pos
+Fred,McGonagall,neg
+Harry Potter,Ginny,pos
+McGonagall,Fudge,neg
+Hagrid,Slytherin,neg
+Voldemort,Malfoy,pos
+Malfoy,Umbridge,pos
+Harry Potter,McGonagall,pos
+Harry Potter,Gryffindor,pos
+Harry Potter,Fudge,neg
+George,Slytherin,neg
+McGonagall,Moody,neg
+Neville,Umbridge,neg
+Voldemort,Black,neg
+Sirius,Neville,neg
+Fred,Moody,pos
+Fred,Slytherin,neg
+Harry Potter,Dudley,neg
+Mr Weasley,Dudley,neg
+Mr Weasley,Fudge,neg
+Voldemort,Mr Weasley,neg
+Malfoy,Lupin,neg
+Harry Potter,Neville,pos
+Neville,Slughorn,neg
+Neville,Slytherin,neg
+Fudge,Percy,pos
+Dumbledore,Dudley,pos
+Hagrid,Fudge,neg
+Malfoy,Mr Weasley,neg
+Harry Potter,Percy,neg
+McGonagall,Mr Weasley,pos
+Hagrid,Vernon,neg
+Snape,Mr Weasley,neg
+Sirius,McGonagall,neg
+Fred,Neville,pos
+Lupin,Potter,pos
+George,McGonagall,neg
+Malfoy,Sirius,neg
+Malfoy,Dobby,neg
+Sirius,Percy,neg
+Potter,Black,pos
+Slughorn,Slytherin,pos
+Hagrid,Dudley,neg
+Voldemort,Mrs Weasley,neg
+Voldemort,Fudge,neg
+Malfoy,Moody,neg
+Sirius,Gryffindor,pos
+Sirius,Vernon,neg
+Sirius,Fudge,neg
+Lupin,Harry Potter,pos
+George,Neville,pos
+McGonagall,Black,neg
+Ginny,Slytherin,neg
+Mrs Weasley,Moody,pos
+Hagrid,Black,pos
+Potter,Vernon,neg
+Hermione,Dudley,neg
+Hagrid,Percy,neg
+Voldemort,Moody,neg
+Malfoy,Fudge,neg
+Lupin,Gryffindor,pos
+George,Moody,pos
+Gryffindor,Percy,pos
+Snape,George,neg
+Snape,Percy,neg
+Harry Potter,Slytherin,neg
+George,Potter,pos
+McGonagall,Mrs Weasley,pos
+Ginny,Potter,pos
+Gryffindor,Slughorn,pos
+Snape,Fred,neg
+Voldemort,Fred,neg
+Fred,Vernon,neg
+Lupin,Umbridge,neg
+George,Vernon,neg
+Mrs Weasley,Fudge,neg
+Hermione,Vernon,neg
+Mrs Weasley,Potter,pos
+Voldemort,Umbridge,neg
+Voldemort,Vernon,neg
+Malfoy,Mrs Weasley,neg
+Malfoy,Percy,neg
+Fred,Slughorn,pos
+Lupin,Percy,pos
+George,Fudge,neg
+Mrs Weasley,Vernon,neg
+Mr Weasley,Potter,pos
+Mr Weasley,Moody,pos
+Mr Weasley,Black,pos
+Potter,Fudge,neg
+Vernon,Dobby,neg
+Snape,Mrs Weasley,neg
+Voldemort,Slytherin,pos
+Sirius,Dobby,pos
+Mr Weasley,Umbridge,neg
+Umbridge,Slytherin,pos
+Gryffindor,Moody,pos
+Gryffindor,Dobby,pos
+Potter,Slughorn,pos
+Hagrid,Dobby,pos
+Voldemort,Gryffindor,neg
+Malfoy,Black,neg
+Fred,Potter,pos
+McGonagall,Percy,pos
+Mrs Weasley,Dobby,pos
+Mrs Weasley,Black,neg
+Potter,Slytherin,neg
+Voldemort,Dobby,neg
+George,Slughorn,neg
+Potter,Dudley,neg
+Percy,Slytherin,neg
+Voldemort,George,neg
+Voldemort,Dudley,neg
+Sirius,Dudley,neg
+Sirius,Slughorn,neg
+Fred,Dudley,neg
+Fred,Fudge,neg
+Fred,Dobby,pos
+Lupin,Fudge,neg
+Harry Potter,Slughorn,pos
+McGonagall,Dobby,pos
+Neville,Black,neg
+Mrs Weasley,Gryffindor,pos
+Gryffindor,Black,neg
+Vernon,Moody,neg
+Moody,Fudge,neg
+Snape,Dobby,neg
+Voldemort,Percy,neg
+George,Dobby,pos
+McGonagall,Vernon,neg
+Mr Weasley,Gryffindor,pos
+Moody,Dobby,pos
+Dudley,Slytherin,neg
+Percy,Black,neg
+Snape,Vernon,neg
+Snape,Dudley,neg
+Sirius,Slytherin,neg
+Lupin,Vernon,neg
+Lupin,Slytherin,neg
+Harry Potter,Black,pos
+George,Black,pos
+Ginny,Moody,neg
+Ginny,Fudge,neg
+Ginny,Dobby,pos
+Neville,Mrs Weasley,pos
+Neville,Percy,neg
+Mrs Weasley,Dudley,neg
+Mrs Weasley,Slughorn,pos
+Mr Weasley,Slughorn,pos
+Mr Weasley,Dobby,pos
+Umbridge,Dobby,neg
+Umbridge,Percy,neg
+Umbridge,Black,neg
+Potter,Percy,neg
+Vernon,Fudge,neg
+Vernon,Slughorn,neg
+Vernon,Percy,neg
+Vernon,Black,neg
+Moody,Black,pos
+Dudley,Fudge,neg
+Dudley,Black,neg
+Fred,Black,neg
+George,Dudley,neg
+Ginny,Dudley,neg
+Ginny,Black,neg
+Neville,Dobby,pos
+Mr Weasley,Slytherin,neg
+Umbridge,Moody,neg
+Gryffindor,Dudley,neg
+Moody,Dudley,neg
+Moody,Percy,neg
+Fudge,Dobby,neg
+Dobby,Percy,neg
+Black,Slytherin,neg
