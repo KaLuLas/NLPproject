@@ -1,10 +1,8 @@
-# https://github.com/JacobPlaster/ann-writer/archive/master.zip
 import re
 import nltk
 
 
 def text_pre_treat(file_name):
-    # file_name = 'book1'
     input_text = open(".\half_done\\" + file_name + ".txt", "r+", encoding="utf-8")
     output_text = open(".\half_done\\" + file_name + "_sent.txt", "w", encoding="utf-8")
     output_text_list = []
@@ -21,11 +19,9 @@ def text_pre_treat(file_name):
         test_string = input_text.readline()
 
     # print(output_text_list)
-    # output_text.write(output_string.join(output_text_list))
     sents = nltk.sent_tokenize(output_string.join(output_text_list))
     for sent in sents:
         output_text.write(sent + ' \n')
-
 
 
 def name_pre_treat():

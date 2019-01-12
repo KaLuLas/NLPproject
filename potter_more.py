@@ -347,7 +347,7 @@ if file_name in files:
         file_name = file_name_prefix + '_sent.txt'
         file_name_prefix = file_name[0:file_name.find('.')]
 
-    # load pkl if exised
+    # load pkl if existed
     try:
         load_name_dict = open(save_pkl_path + file_name_prefix + "_name_dict.pkl", 'rb')
         respond = input(save_pkl_path + file_name_prefix + "_name_dict.pkl already existed, read from saved data?[y/n]")

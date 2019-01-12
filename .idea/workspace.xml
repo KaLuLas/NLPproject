@@ -2,30 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7c4e6be1-7999-4937-98ba-39486e54ef1d" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2018-2019学年第一学期期末论文课程评分表.doc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/csv/input_sent_edge.csv" beforeDir="false" afterPath="$PROJECT_DIR$/csv/input_sent_edge.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/csv/input_sent_relation_label.csv" beforeDir="false" afterPath="$PROJECT_DIR$/csv/input_sent_relation_label.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/half_done/PotterNameEnglish.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/half_done/PotterNameEnglishOutput.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/half_done/PotterNameEnglishOutput_save.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/half_done/book1.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/half_done/book1_sent.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/half_done/book2.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/half_done/book2_sent.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/half_done/book3.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/half_done/book3_sent.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/half_done/book4.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/half_done/book5.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/half_done/book5_sent.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/half_done/book6.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/half_done/book7.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/half_done/input.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/half_done/input_sent.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/name_detect_logic.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/potter_more.py" beforeDir="false" afterPath="$PROJECT_DIR$/potter_more.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/relation_predict.py" beforeDir="false" afterPath="$PROJECT_DIR$/relation_predict.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/save/input_sent_relation_record.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/save/input_sent_relation_record.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pre_treatment.py" beforeDir="false" afterPath="$PROJECT_DIR$/pre_treatment.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -46,10 +25,22 @@
       <file leaf-file-name="relation_predict.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/relation_predict.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="103">
-              <caret line="57" column="31" selection-start-line="57" selection-start-column="31" selection-end-line="57" selection-end-column="31" />
+            <state relative-caret-position="396">
+              <caret line="136" column="50" selection-start-line="136" selection-start-column="50" selection-end-line="136" selection-end-column="50" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pre_treatment.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pre_treatment.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="506">
+              <caret line="23" column="39" lean-forward="true" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
+              <folding>
+                <element signature="e#64#73#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -58,8 +49,8 @@
       <file leaf-file-name="potter_more.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/potter_more.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
-              <caret line="43" column="28" lean-forward="true" selection-start-line="43" selection-start-column="28" selection-end-line="43" selection-end-column="28" />
+            <state relative-caret-position="91">
+              <caret line="377" column="22" lean-forward="true" selection-start-line="377" selection-start-column="22" selection-end-line="377" selection-end-column="22" />
               <folding>
                 <element signature="e#25#34#0" expanded="true" />
               </folding>
@@ -121,10 +112,10 @@
         <option value="$PROJECT_DIR$/half_done/PotterNameEnglishOutput _save.txt" />
         <option value="$PROJECT_DIR$/half_done/PotterNameEnglishOutput_save.txt" />
         <option value="$PROJECT_DIR$/half_done/book1.txt" />
-        <option value="$PROJECT_DIR$/pre_treatment.py" />
         <option value="$PROJECT_DIR$/human_name_extraction.py" />
-        <option value="$PROJECT_DIR$/potter_more.py" />
         <option value="$PROJECT_DIR$/relation_predict.py" />
+        <option value="$PROJECT_DIR$/pre_treatment.py" />
+        <option value="$PROJECT_DIR$/potter_more.py" />
       </list>
     </option>
   </component>
@@ -138,8 +129,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="953" />
-    <option name="width" value="974" />
+    <option name="x" value="-7" />
+    <option name="width" value="900" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectView">
@@ -239,7 +230,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="953" y="0" width="974" height="1047" extended-state="0" />
+    <frame x="-7" y="0" width="900" height="1047" extended-state="0" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32952926" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -251,7 +242,7 @@
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4968652" weight="0.19256018" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="right" x="0" y="0" width="1920" height="1040" id="SciView" order="4" weight="0.85886216" />
+      <window_info anchor="right" x="0" y="0" width="1920" height="1040" id="SciView" order="4" weight="0.85833335" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.5031348" side_tool="true" weight="0.3107221" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.49669603" />
@@ -267,24 +258,24 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.113270774" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3281027" />
-      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Python Console" order="10" visible="true" weight="0.32952926" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39977974" />
       <window_info anchor="right" id="Database" order="4" />
       <window_info anchor="bottom" id="Terminal" order="11" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="right" id="SciView" order="3" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Python Console" order="10" visible="true" weight="0.32952926" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info id="Favorites" order="2" side_tool="true" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -309,7 +300,7 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="98" />
+      <option name="time" value="100" />
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
@@ -385,20 +376,8 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/half_done/raw_input.txt" />
-    <entry file="file://$PROJECT_DIR$/half_done/PotterNameEnglishOutput_save.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret column="1364" selection-start-column="1364" selection-end-column="1364" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/half_done/book1.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="10" lean-forward="true" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/half_done/PotterNameEnglishOutput_save.txt" />
+    <entry file="file://$PROJECT_DIR$/half_done/book1.txt" />
     <entry file="file://$PROJECT_DIR$/pre_treatment.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
@@ -416,20 +395,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/half_done/PotterNameEnglishOutput_save.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret column="1364" selection-start-column="1364" selection-end-column="1364" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/half_done/book1.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160006">
-          <caret line="7273" lean-forward="true" selection-start-line="7273" selection-end-line="7273" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/half_done/PotterNameEnglishOutput_save.txt" />
+    <entry file="file://$PROJECT_DIR$/half_done/book1.txt" />
     <entry file="file://$PROJECT_DIR$/pre_treatment.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
@@ -454,9 +421,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/half_done/PotterNameEnglishOutput.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/half_done/PotterNameEnglishOutput.txt" />
     <entry file="file://$PROJECT_DIR$/potter_more.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="880">
@@ -474,9 +439,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/half_done/PotterNameEnglishOutput.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/half_done/PotterNameEnglishOutput.txt" />
     <entry file="file://$PROJECT_DIR$/potter_more.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="528">
@@ -545,49 +508,13 @@
     <entry file="file://$PROJECT_DIR$/PotterNameEnglish.txt" />
     <entry file="file://$PROJECT_DIR$/PotterNameEnglishOutput.txt" />
     <entry file="file://$PROJECT_DIR$/half_done/PotterNameEnglishOutput _save.txt" />
-    <entry file="file://$PROJECT_DIR$/half_done/PotterNameEnglishOutput.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/half_done/PotterNameEnglish.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1298">
-          <caret line="51" column="30" selection-start-line="51" selection-start-column="30" selection-end-line="51" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/half_done/book1.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="14747" column="25" selection-start-line="14747" selection-start-column="25" selection-end-line="14747" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/half_done/PotterNameEnglishOutput_save.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret column="1332" selection-start-column="1332" selection-end-column="1332" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/half_done/PotterNameEnglishOutput.txt" />
+    <entry file="file://$PROJECT_DIR$/half_done/PotterNameEnglish.txt" />
+    <entry file="file://$PROJECT_DIR$/half_done/book1.txt" />
+    <entry file="file://$PROJECT_DIR$/half_done/PotterNameEnglishOutput_save.txt" />
     <entry file="file://$PROJECT_DIR$/half_done/raw_input.txt" />
-    <entry file="file://$PROJECT_DIR$/half_done/book2.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="631">
-          <caret line="798" column="51" selection-start-line="798" selection-start-column="51" selection-end-line="798" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/half_done/book2.txt" />
     <entry file="file://$PROJECT_DIR$/half_done/book1_sent_name_extract.txt" />
-    <entry file="file://$PROJECT_DIR$/pre_treatment.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="990">
-          <caret line="46" column="41" selection-start-line="46" selection-start-column="41" selection-end-line="46" selection-end-column="41" />
-          <folding>
-            <element signature="e#64#73#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../../计算机网络 曹袖/NetProject/ChatroomWithPython/client.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2051" />
@@ -633,10 +560,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pre_treatment.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="23" column="39" lean-forward="true" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
+          <folding>
+            <element signature="e#64#73#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/potter_more.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="43" column="28" lean-forward="true" selection-start-line="43" selection-start-column="28" selection-end-line="43" selection-end-column="28" />
+        <state relative-caret-position="91">
+          <caret line="377" column="22" lean-forward="true" selection-start-line="377" selection-start-column="22" selection-end-line="377" selection-end-column="22" />
           <folding>
             <element signature="e#25#34#0" expanded="true" />
           </folding>
@@ -645,8 +582,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/relation_predict.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="103">
-          <caret line="57" column="31" selection-start-line="57" selection-start-column="31" selection-end-line="57" selection-end-column="31" />
+        <state relative-caret-position="396">
+          <caret line="136" column="50" selection-start-line="136" selection-start-column="50" selection-end-line="136" selection-end-column="50" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
