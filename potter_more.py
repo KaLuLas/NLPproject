@@ -22,7 +22,7 @@ save_pkl_path = ".\save\\"
 file_name_prefix = ""
 file_name = ""
 
-appear_dict_radius = 0
+appear_dict_radius = 5
 threshold = 0
 file_line_count = 0
 # relation extraction related
@@ -38,7 +38,7 @@ relation_record_dict = {}
 freq_dict = {}
 relation_score_dict = {}
 build_relation_record_dict = False
-generate_graph = True
+generate_graph = False
 
 
 def extract_name(file_name):

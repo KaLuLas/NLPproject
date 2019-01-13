@@ -22,6 +22,7 @@ def get_words(appear_list):
     for line_num in appear_list:
         line = re.sub('[,\!?\.();’”“—-]+', '', text[line_num])
         bow += line
+        # bow += text[line_num]
     words = nltk.word_tokenize(bow)
     # words = [word.lower() for word in words if word.lower() not in stop_list and word not in names]
     return words
