@@ -227,7 +227,7 @@ Mr. Harry Potter / Miss Hermione Granger问题（在姓名提取中解决 **fini
 
 现在名字识别已经几乎没有问题
 
-![name_detect_logic](https://github.com/KaLuLas/NLPproject/blob/master/name_detect_logic.jpg?raw=true)
+![name_detect_logic](https://github.com/KaLuLas/NLPproject/blob/master/name_extract_logic.png?raw=true)
 
 </br>
 

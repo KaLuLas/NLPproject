@@ -22,7 +22,7 @@ save_pkl_path = ".\save\\"
 file_name_prefix = ""
 file_name = ""
 
-appear_dict_radius = 5
+appear_dict_radius = 0
 threshold = 0
 file_line_count = 0
 # relation extraction related
